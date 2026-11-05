@@ -6,7 +6,6 @@
 <title>Olosphera</title>
 <meta name="description" content="Olosphera: la sala immersiva di Roma dove vivi la tua casa, arredata, prima che esista.">
 <!-- Adobe Fonts (progetto Web "Olosphera"): CoFo Raffiné per i titoli -->
-<!-- versione: prova di pubblicazione 5 nov 2026 -->
 <link rel="stylesheet" href="https://use.typekit.net/kmq0huq.css">
 <style>
 /* type: Ortica (Collletttivo, OFL) for display, Necto Mono (Collletttivo, OFL) for labels and numbers, Switzer (Indian Type Foundry) for text */
@@ -852,12 +851,16 @@ var OLO_BASE='';
       stitle.style.filter=hold>0.01?'blur('+(hold*8).toFixed(1)+'px)':'none';
       ui.style.visibility=e>0.55?'visible':'hidden'; }
     function sm(a,b,x){ x=Math.max(0,Math.min(1,(x-a)/(b-a))); return x*x*(3-2*x); }
+    /* the door rests ajar: a thin blade of golden light escapes, and it breathes slowly, as if someone were behind it */
+    var REST=11;
     function paint(){
       var h=sm(0,0.16,p)-sm(0.9,1,p)*0.6, d=sm(0.1,1,p), op=sm(0.12,0.75,p);
+      var t=performance.now(), breath=still?0:Math.sin(t/1500)*1.8+Math.sin(t/610)*0.35, rest=REST+breath*(1-d);
+      var glow=0.42+0.08*Math.sin(t/1500);
       lever.style.transform='rotate('+(h*34).toFixed(2)+'deg)';
-      door.style.transform='rotateY('+(d*76).toFixed(2)+'deg)';
-      shade.style.opacity=(d*0.32).toFixed(3); lit.style.opacity=(op*0.9).toFixed(3);
-      light.style.opacity=op.toFixed(3); spill.style.opacity=(op*1).toFixed(3); floorL.style.opacity=(op*0.95).toFixed(3);
+      door.style.transform='rotateY('+(rest+(76-rest)*d).toFixed(2)+'deg)';
+      shade.style.opacity=(0.07+d*0.25).toFixed(3); lit.style.opacity=Math.max(op*0.9,0.16).toFixed(3);
+      light.style.opacity=Math.max(op,glow).toFixed(3); spill.style.opacity=Math.max(op,glow*0.5).toFixed(3); floorL.style.opacity=Math.max(op*0.95,glow*0.28).toFixed(3);
       ui.style.opacity=(1-sm(0.7,0.98,p)).toFixed(3);
     }
     function start(e){ if(entering) return; if(e){ e.preventDefault(); if(e.pointerId!=null&&btn.setPointerCapture) try{ btn.setPointerCapture(e.pointerId); }catch(_){} } holding=true; downAt=performance.now(); btn.classList.add('on'); }
@@ -877,7 +880,7 @@ var OLO_BASE='';
     function reset(){ setTimeout(function(){ stage.style.transition='none'; stage.style.transform=''; p=0; paint(); entering=false; },400); }
     (function loop(t){ var dt=last?Math.min(120,t-last):16; last=t;
       arrive();
-      if(!entering){ var before=p; if(holding) p=Math.min(1,p+dt/HOLD); else if(p>0) p=Math.max(0,p-dt/650); if(p!==before) paint(); if(p>=1) enter(); }
+      if(!entering){ var before=p; if(holding) p=Math.min(1,p+dt/HOLD); else if(p>0) p=Math.max(0,p-dt/650); if(p!==before || (!still && p===0)) paint(); if(p>=1) enter(); }
       requestAnimationFrame(loop); })(0);
     paint();
   })();
