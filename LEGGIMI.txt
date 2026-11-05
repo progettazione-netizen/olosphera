@@ -1,0 +1,29 @@
+OLOSPHERA — sito one-page (ultima versione)
+
+APRIRE IN LOCALE
+- Il sito carica file (frame, Ollie 3D) via rete: aprendo index.html con doppio clic alcuni browser bloccano il caricamento.
+  Meglio un piccolo server locale, es. nella cartella:  python -m http.server 8000  → http://localhost:8000
+
+PUBBLICARE
+- Vercel / Netlify: trascina questa cartella → online in un minuto.
+- Qualsiasi hosting: carica tutta la cartella (index.html + frames/ + loghi + ollie-*).
+
+LIBRERIE ESTERNE (CDN jsDelivr)
+- lenis@1.1.18 (scroll fluido) — se manca, la pagina usa lo scroll normale.
+- three@0.147.0 (Ollie 3D) — se manca o WebGL non c'è, dopo 9 s compare Ollie 2D (ollie-body.png).
+
+FILE
+- index.html ............ tutta la pagina (CSS e JS inline)
+- frames/f001…f295.webp . sequenza video guidata dallo scroll (video 11034-1, 9 fps, 1280×720)
+- frames-m/s00…s58.webp  stessa sequenza per telefoni (768×432, 5 fotogrammi per file)
+- fonts/ ................ Ortica e Necto Mono (Collletttivo, OFL), Switzer (Fontshare)
+
+FONT DEI TITOLI: CoFo Raffiné da Adobe Fonts (progetto Web "Olosphera", codice kmq0huq).
+Il link è nel <head> di index.html. Se Adobe non risponde, i titoli usano Ortica.
+- logo-color.png / logo-white.png / logoc-olos|sym|hera.png ... loghi e pezzi per l'intro
+- ollie-geo.json + ollie-color.jpg + ollie-normal.jpg ......... Ollie 3D
+- ollie-body.png ......... Ollie 2D di riserva
+
+DA COMPLETARE
+- "[email da inserire]" e "[numero da inserire]" nella sezione Prenota.
+- Il modulo qui è solo dimostrativo (mostra "Richiesta ricevuta"): per riceverlo davvero usa il tema WordPress (02) o collega Formspree.
