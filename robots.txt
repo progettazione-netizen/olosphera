@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://progettazione-netizen.github.io/olosphera/sitemap.xml

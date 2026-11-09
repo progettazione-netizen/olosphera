@@ -3,31 +3,53 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Olosphera</title>
-<meta name="description" content="Olosphera: la sala immersiva di Roma dove vivi la tua casa, arredata, prima che esista.">
-<!-- Adobe Fonts (progetto Web "Olosphera"): CoFo Raffiné per i titoli -->
-<link rel="stylesheet" href="https://use.typekit.net/kmq0huq.css">
+<title>Olosphera · Sala immersiva a Roma per vedere la tua casa prima che esista</title>
+<meta name="description" content="Olosphera è la sala immersiva dello showroom Arredoroma a Roma: entri nella tua casa a grandezza naturale, senza visore, e scegli finiture e arredi con un architetto. Sessioni da 30–45 minuti.">
+<link rel="canonical" href="https://progettazione-netizen.github.io/olosphera/">
+<link rel="alternate" hreflang="it" href="https://progettazione-netizen.github.io/olosphera/">
+<link rel="alternate" hreflang="en" href="https://progettazione-netizen.github.io/olosphera/en.html">
+<link rel="alternate" hreflang="x-default" href="https://progettazione-netizen.github.io/olosphera/">
+<meta name="theme-color" content="#151b49">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Olosphera">
+<meta property="og:locale" content="it_IT">
+<meta property="og:locale:alternate" content="en_GB">
+<meta property="og:url" content="https://progettazione-netizen.github.io/olosphera/">
+<meta property="og:title" content="Olosphera · Entra nella tua casa prima che esista">
+<meta property="og:description" content="La sala immersiva dello showroom Arredoroma a Roma: la tua casa a grandezza naturale, senza visore, con un architetto al tuo fianco.">
+<meta property="og:image" content="https://progettazione-netizen.github.io/olosphera/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Olosphera: una cucina arredata a grandezza naturale e la frase Entra nella tua casa prima che esista.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://progettazione-netizen.github.io/olosphera/og-image.jpg">
+<link rel="preload" as="font" type="font/woff2" href="fonts/outfit-latin-300-normal.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="fonts/cormorant-garamond-latin-500-normal.woff2" crossorigin>
 <style>
-/* type: Ortica (Collletttivo, OFL) for display, Necto Mono (Collletttivo, OFL) for labels and numbers, Switzer (Indian Type Foundry) for text */
-@font-face{font-family:"Ortica";font-weight:300;font-display:swap;src:url(fonts/OrticaLinear-Light.woff2) format("woff2")}
-@font-face{font-family:"Ortica";font-weight:400;font-display:swap;src:url(fonts/OrticaLinear-Regular.woff2) format("woff2")}
-@font-face{font-family:"Ortica";font-weight:700;font-display:swap;src:url(fonts/OrticaLinear-Bold.woff2) format("woff2")}
-@font-face{font-family:"Ortica Angular";font-weight:700;font-display:swap;src:url(fonts/OrticaAngular-Bold.woff2) format("woff2")}
-@font-face{font-family:"Necto Mono";font-weight:400;font-display:swap;src:url(fonts/NectoMono-Regular.woff2) format("woff2")}
-@font-face{font-family:"Switzer";font-weight:300;font-display:swap;src:url(fonts/switzer-latin-300-normal.woff2) format("woff2")}
-@font-face{font-family:"Switzer";font-weight:400;font-display:swap;src:url(fonts/switzer-latin-400-normal.woff2) format("woff2")}
-@font-face{font-family:"Switzer";font-weight:400;font-style:italic;font-display:swap;src:url(fonts/switzer-latin-400-italic.woff2) format("woff2")}
-@font-face{font-family:"Switzer";font-weight:500;font-display:swap;src:url(fonts/switzer-latin-500-normal.woff2) format("woff2")}
-@font-face{font-family:"Switzer";font-weight:600;font-display:swap;src:url(fonts/switzer-latin-600-normal.woff2) format("woff2")}
+/* type: the two brand-book families, both free (SIL OFL 1.1), self-hosted: Cormorant Garamond for display and H1, Outfit for subtitles, text, labels and numbers */
+@font-face{font-family:"Cormorant Garamond";font-weight:300;font-style:normal;font-display:swap;src:url(fonts/cormorant-garamond-latin-300-normal.woff2) format("woff2")}
+@font-face{font-family:"Cormorant Garamond";font-weight:400;font-style:normal;font-display:swap;src:url(fonts/cormorant-garamond-latin-400-normal.woff2) format("woff2")}
+@font-face{font-family:"Cormorant Garamond";font-weight:400;font-style:italic;font-display:swap;src:url(fonts/cormorant-garamond-latin-400-italic.woff2) format("woff2")}
+@font-face{font-family:"Cormorant Garamond";font-weight:500;font-style:normal;font-display:swap;src:url(fonts/cormorant-garamond-latin-500-normal.woff2) format("woff2")}
+@font-face{font-family:"Cormorant Garamond";font-weight:500;font-style:italic;font-display:swap;src:url(fonts/cormorant-garamond-latin-500-italic.woff2) format("woff2")}
+@font-face{font-family:"Cormorant Garamond";font-weight:600;font-style:normal;font-display:swap;src:url(fonts/cormorant-garamond-latin-600-normal.woff2) format("woff2")}
+@font-face{font-family:"Outfit";font-weight:300;font-display:swap;src:url(fonts/outfit-latin-300-normal.woff2) format("woff2")}
+@font-face{font-family:"Outfit";font-weight:400;font-display:swap;src:url(fonts/outfit-latin-400-normal.woff2) format("woff2")}
+@font-face{font-family:"Outfit";font-weight:500;font-display:swap;src:url(fonts/outfit-latin-500-normal.woff2) format("woff2")}
+@font-face{font-family:"Outfit";font-weight:600;font-display:swap;src:url(fonts/outfit-latin-600-normal.woff2) format("woff2")}
 </style>
 <style>
-/* Layout: one idea per screen. A scroll-driven video opens; every section after it is a single full-height scene with one statement. Single dark theme, chosen with the brand. */
+/* Layout: a scroll-driven video opens, then the door, the eight-step journey, the logo and the booking form.
+   Light theme (cream #f1eee8 base) with dark scenes for the door and the journey. Brand fonts: Cormorant Garamond + Outfit. */
 :root{
-  --bg:#f1eee8; --bg-deep:#e9e4db; --fg:#1d1b18; --fg-soft:rgba(29,27,24,.58); --line:rgba(29,27,24,.14); --ink:#efeff8;
-  --viola:#6b3fa0; --oro:#c49a3f;
-  --display:"cofo-raffine","Ortica","Helvetica Neue",Arial,sans-serif;
-  --body:"Switzer","Helvetica Neue",Arial,sans-serif;
-  --mono:"Necto Mono",ui-monospace,"SFMono-Regular",Menlo,monospace;
+  --bg:#f1eee8; --bg-deep:#e9e4db; --fg:#1d1b18; --fg-soft:rgba(29,27,24,.72); --line:rgba(29,27,24,.14); --ink:#efeff8;
+  --viola:#6b3fa0; --oro:#c49a3f; --oro-ink:#7d5c18; --oro-lg:#8a6a1f;
+  --display:"Cormorant Garamond",Garamond,"Times New Roman",serif;
+  --body:"Outfit","Helvetica Neue",Arial,sans-serif;
+  --mono:"Outfit","Helvetica Neue",Arial,sans-serif;
   --gutter:clamp(20px,6vw,96px);
   color-scheme:light;
 }
@@ -38,49 +60,32 @@ html.lenis,html.lenis body{height:auto}
 .lenis.lenis-smooth{scroll-behavior:auto!important}
 .lenis.lenis-stopped{overflow:hidden}
 body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--body);font-weight:300;font-size:clamp(15px,.4vw+13px,18px);line-height:1.55;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+button,input,select,textarea{font-family:inherit}
 a{color:inherit}
 img{max-width:100%;display:block}
 h1,h2,h3,p{margin:0}
-.serif{font-family:var(--display);font-weight:500;line-height:1.06;letter-spacing:-.012em;font-optical-sizing:auto;text-wrap:balance}
-.label{font-size:.7rem;letter-spacing:.22em;text-transform:uppercase;color:var(--oro);font-weight:500}
-.btn{background:#d9b262;display:inline-flex;align-items:center;gap:.7em;border-radius:999px;padding:.9em 1.7em;font:500 .82rem/1 var(--body);letter-spacing:.08em;text-transform:uppercase;text-decoration:none;color:#1d1b18;background:var(--oro);border:0;cursor:pointer;transition:transform .25s ease,filter .25s ease}
+.serif{font-family:var(--display);font-optical-sizing:auto;text-wrap:balance}
+.label{text-transform:uppercase;color:var(--oro-ink);font-weight:500;font-size:.75rem;letter-spacing:.3em}
 .btn:hover{transform:translateY(-1px);filter:brightness(1.06)}
 :is(a,button,input):focus-visible{outline:2px solid var(--oro);outline-offset:4px}
 
-/* nav: logo and one word */
-.nav{position:fixed;inset:env(safe-area-inset-top,0px) 0 auto 0;z-index:30;display:flex;justify-content:space-between;align-items:center;padding:1.1rem var(--gutter);mix-blend-mode:normal}
-.nav img{height:26px;width:auto}
-.nav a.word{font:500 .74rem/1 var(--body);letter-spacing:.2em;text-transform:uppercase;text-decoration:none;color:var(--fg);padding:.7em 1.1em;border:1px solid var(--line);border-radius:999px;background:rgba(241,238,232,.78);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
-
 /* scroll-driven opener */
-.scrub{position:relative;height:820vh}
-.scrub .stage{position:sticky;top:0;height:100vh;height:100svh;overflow:hidden;background:var(--bg)}
 .scrub canvas{position:absolute;inset:0;width:100%;height:100%;display:block}
 .scrub .veil{position:absolute;inset:0;transition:opacity .8s ease;background:linear-gradient(180deg,rgba(6,5,4,.5) 0%,rgba(6,5,4,.12) 18%,transparent 34%,transparent 46%,rgba(6,5,4,.42) 64%,rgba(6,5,4,.86) 86%,rgba(6,5,4,.94) 100%),linear-gradient(90deg,rgba(6,5,4,.62) 0%,rgba(6,5,4,.3) 38%,transparent 68%),radial-gradient(130% 90% at 50% 40%,transparent 55%,rgba(6,5,4,.45) 100%)}
 .cap{color:var(--ink);position:absolute;left:var(--gutter);right:var(--gutter);bottom:clamp(2.2rem,8vh,5rem);max-width:16ch;font-size:clamp(1.75rem,4.6vw,4.4rem);opacity:0;transform:translateY(14px);transition:opacity .9s ease,transform .9s cubic-bezier(.2,.7,.2,1);text-shadow:0 2px 24px rgba(0,0,0,.55),0 1px 2px rgba(0,0,0,.35);pointer-events:none}
 .cap.on{opacity:1;transform:none}
 .cap em{font-style:italic;color:#d9b262}
-.cap .btn{margin-top:1.4rem;pointer-events:auto;text-shadow:none;color:#1d1b18}
 .cap.group{max-width:none;font-size:inherit;display:grid;gap:1.2rem;justify-items:start}
 .cap.group h2{font-size:clamp(1.75rem,4.3vw,4.1rem);max-width:14ch}
 .cap.group .sub{max-width:42ch;color:rgba(244,241,235,.9);font-weight:400;font-size:clamp(1rem,1.15vw,1.15rem);margin:0}
 .cap.group .label{display:flex;gap:1.2em;color:#d9b262}
 .cap.group .label span{color:rgba(239,239,248,.6);letter-spacing:.12em}
-.cap.dark{color:var(--fg);text-shadow:none}
-.cap.dark em{color:var(--oro)}
-.cap.dark .label{color:var(--oro)}
-.cap.dark .label span{color:var(--fg-soft)}
-.cap.dark .sub{color:var(--fg-soft)}
-.hint{position:absolute;left:var(--gutter);top:calc(env(safe-area-inset-top,0px) + 5.2rem);display:grid;gap:.5rem;transition:opacity .5s}
-.hint.off{opacity:0}
-.hint .label{color:var(--oro)}
-.hint b{font:400 .78rem/1.3 var(--body);letter-spacing:.06em;color:rgba(239,239,248,.75)}
 .scrolldown{position:absolute;right:var(--gutter);bottom:clamp(2.2rem,8vh,5rem);width:1px;height:64px;background:linear-gradient(var(--oro),transparent);opacity:.9;transition:opacity .5s}
 .scrolldown.off{opacity:0}
 @media (max-width:640px){.cap{max-width:12ch;bottom:5rem}}
 
 /* the video stage is pinned by script, not by position:sticky (some in-app browsers ignore sticky) */
-.scrub .stage{position:absolute;top:0;left:0;right:0}
+.scrub .stage{overflow:hidden;background:var(--bg);position:absolute;top:0;left:0;right:0;height:calc(var(--vh,1vh)*100)}
 .scrub .stage.pin{position:fixed;top:0}
 .scrub .stage.end{top:auto;bottom:0}
 /* phone only: cinematic framing, black surround, soft elliptical vignette so the film has no visible edge */
@@ -98,119 +103,55 @@ html.phone .cap{bottom:calc(var(--vh,1vh)*5.5);max-width:none;right:var(--gutter
 html.phone .cap.group h2{max-width:16ch}
 html.phone .cap:not(.group){font-size:clamp(1.6rem,7.2vw,2.3rem)}
 html.phone .scrolldown{display:none}
-/* heights from the real screen height (set by script), with vh as fallback */
-.scrub{height:calc(var(--vh,1vh)*820)}
-.scrub .stage{height:calc(var(--vh,1vh)*100)}
-.soglia{height:calc(var(--vh,1vh)*100)}
 /* scenes */
 .scene{position:relative;min-height:100vh;min-height:calc(var(--vh,1vh)*100);display:grid;align-content:center;padding:14vh var(--gutter);border-top:1px solid var(--line);overflow:hidden}
-.scene .label{margin-bottom:2.2rem;display:flex;gap:1.2em;align-items:baseline}
 .scene .label span{color:var(--fg-soft);letter-spacing:.12em}
 .scene .serif{font-size:clamp(1.75rem,4.1vw,4.2rem);max-width:19ch}
-.scene .serif em{font-style:italic;color:var(--oro)}
-.scene .sub{margin-top:2rem;max-width:44ch;color:var(--fg-soft);font-size:clamp(1rem,1.15vw,1.15rem)}
+.scene .serif em{font-style:italic;color:var(--oro-lg)}
 .fx{transition:opacity 1s ease,transform 1s ease}
 .fx.pre{opacity:.08;transform:translateY(30px)}
-
-/* video scenes: a loop behind every statement, loaded only when near */
-.scene.vid,.steps-scene{isolation:isolate}
-.bg{position:absolute;inset:0;z-index:-1;overflow:hidden}
-.bg img,.bg video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.34;filter:saturate(.85)}
-.bg video{opacity:0;transition:opacity 1.2s ease}
-.bg video.ready{opacity:.34}
-.bg::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,var(--bg) 10%,rgba(241,238,232,.55) 55%,rgba(241,238,232,.25)),linear-gradient(180deg,var(--bg),transparent 18%,transparent 82%,var(--bg))}
-.ways{margin-top:3rem}
-/* 04: three shots that change with the scroll */
-.steps-scene{padding:0;min-height:0;overflow:visible;display:block}
-.steps-scene .track{height:320vh;position:relative}
-.steps-scene .stage{position:sticky;top:0;height:100vh;height:100svh;display:grid;align-content:center;padding:14vh var(--gutter);overflow:hidden}
-.bg.multi figure{position:absolute;inset:0;margin:0;opacity:0;transition:opacity 1s ease}
-.bg.multi figure.on{opacity:1}
-.steps-scene h2{font-size:clamp(2.2rem,6vw,6rem)}
-.steps-scene .w{color:rgba(239,239,248,.22);transition:color .8s ease}
-.steps-scene .w.on{color:var(--fg)}
-.steps-scene .step-sub{position:absolute;left:var(--gutter);right:var(--gutter);bottom:14vh;margin:0;opacity:0;transform:translateY(10px);transition:opacity .6s ease,transform .6s ease}
-.steps-scene .step-sub.on{opacity:1;transform:none}
-/* 03: three lines */
-.steps{display:grid;gap:0;border-top:1px solid var(--line);max-width:64ch;margin-top:1rem}
-.steps div{display:grid;grid-template-columns:2.2rem 10.5rem 1fr;gap:1rem;align-items:baseline;padding:1.3rem 0;border-bottom:1px solid var(--line)}
-.steps i{font-family:var(--display);font-style:normal;color:var(--oro);font-size:1.3rem}
-.steps b{font-family:var(--display);font-weight:400;font-size:1.7rem;letter-spacing:.01em}
-.steps p{color:var(--fg-soft)}
-@media (max-width:560px){.steps div{grid-template-columns:2.2rem 1fr}.steps p{grid-column:2}}
-
-/* 04: two ways */
-.ways{display:grid;grid-template-columns:1fr 1fr;gap:clamp(1.5rem,5vw,5rem);margin-top:1rem}
-.ways a{display:grid;gap:1rem;text-decoration:none;padding-top:1.4rem;border-top:1px solid var(--line);transition:border-color .3s}
-.ways a:hover{border-color:var(--oro)}
-.ways .serif{font-size:clamp(1.9rem,3.6vw,3.4rem)}
-.ways p{color:var(--fg-soft);max-width:34ch}
-.ways .go{font:500 .72rem/1 var(--body);letter-spacing:.2em;text-transform:uppercase;color:var(--oro)}
-@media (max-width:720px){.ways{grid-template-columns:1fr}}
 
 /* 05: form */
 .book{display:grid;grid-template-columns:1fr 1fr;gap:clamp(2rem,6vw,6rem);align-items:start;margin-top:1rem}
 @media (max-width:820px){.book{grid-template-columns:1fr}}
 form{display:grid;gap:1.6rem;max-width:34rem}
 .f{display:grid;gap:.3rem}
-.f label{font-size:.68rem;letter-spacing:.2em;text-transform:uppercase;color:var(--fg-soft)}
+.f label{font-size:.75rem;letter-spacing:.2em;text-transform:uppercase;color:var(--fg-soft)}
 .f input{background:transparent;border:0;border-bottom:1px solid rgba(29,27,24,.35);color:var(--fg);padding:.6em 0;font:300 1.2rem/1.3 var(--body);border-radius:0;width:100%}
 .f input:focus{border-bottom-color:var(--oro);outline:none}
-.err{color:var(--oro);font-size:.9rem}
+.err{color:var(--oro-ink);font-size:.9rem}
 .ok{border-top:1px solid var(--oro);padding-top:1.4rem;display:grid;gap:.5rem;max-width:34rem}
 .ok b{font-family:var(--display);font-weight:400;font-size:2rem}
 .meta{display:grid;gap:1.2rem;color:var(--fg-soft);max-width:36ch}
-.meta dt{font-size:.68rem;letter-spacing:.2em;text-transform:uppercase}
+.meta dt{font-size:.75rem;letter-spacing:.2em;text-transform:uppercase}
 .meta dd{margin:.2rem 0 0;color:var(--fg);font-size:1.05rem}
-.meta dd.todo{color:var(--oro);font-style:italic}
 .meta dl{margin:0;display:grid;gap:1rem}
 
 /* la soglia: a frameless white door under a spotlight; hold the button and it opens into light */
-.soglia{position:relative;height:100vh;height:calc(var(--vh,1vh)*100);overflow:hidden;isolation:isolate;background:#f1eee8;color:#1d1b18;--H:min(calc(var(--vh,1vh)*52),calc(calc(var(--vh,1vh)*100) - 24rem));--W:calc(var(--H)*.43);--floor:calc(var(--vh,1vh)*12);-webkit-user-select:none;user-select:none}
+.soglia{position:relative;height:100vh;height:calc(var(--vh,1vh)*100);overflow:hidden;isolation:isolate;--H:min(calc(var(--vh,1vh)*52),calc(calc(var(--vh,1vh)*100) - 24rem));--W:calc(var(--H)*.43);--floor:calc(var(--vh,1vh)*12);-webkit-user-select:none;user-select:none;color:#efe8dc;background:#1b1a19;--r:calc(var(--W)*.022)}
 .soglia .stage{position:absolute;inset:0;transform-origin:50% 50%;will-change:transform}
-.soglia .wall{position:absolute;inset:0 0 var(--floor) 0;background:radial-gradient(ellipse calc(var(--W)*1.3) calc(var(--H)*.7) at 50% calc(100% - var(--H)*.62),rgba(255,247,232,.95),rgba(255,247,232,0) 75%),linear-gradient(180deg,#efebe4,#f1eee8 60%,#ece7df)}
-.soglia .floor{position:absolute;left:0;right:0;bottom:0;height:var(--floor);background:linear-gradient(180deg,#e0d9ce,#e9e4db 35%,#efebe4)}
-.soglia .floor::before{content:"";position:absolute;left:0;right:0;top:0;height:1px;background:rgba(20,18,16,.18)}
 .soglia .spill{position:absolute;left:50%;bottom:calc(var(--floor) - var(--H)*.25);width:calc(var(--W)*5);height:calc(var(--H)*1.5);transform:translateX(-50%);background:radial-gradient(ellipse 22% 42% at 50% 55%,rgba(250,214,140,.75),rgba(245,200,120,.38) 40%,rgba(240,190,110,.1) 65%,rgba(240,190,110,0) 85%);opacity:0;pointer-events:none}
 .soglia .floorlight{position:absolute;left:0;right:0;bottom:0;height:var(--floor);opacity:0;pointer-events:none;background:linear-gradient(180deg,rgba(246,206,128,.85),rgba(246,214,150,.3));clip-path:polygon(calc(50% - var(--W)/2) 0,calc(50% + var(--W)/2) 0,calc(50% + var(--W)*1.35) 100%,calc(50% - var(--W)*1.35) 100%);filter:blur(1px)}
 .soglia .dw{position:absolute;left:50%;bottom:var(--floor);width:var(--W);height:var(--H);transform:translateX(-50%);perspective:calc(var(--H)*3.2);perspective-origin:50% 45%}
 .soglia .opening{position:absolute;inset:0;background:#120f0c;box-shadow:inset 0 0 0 1px rgba(0,0,0,.6)}
 .soglia .opening i{position:absolute;inset:0;opacity:0;background:radial-gradient(ellipse 90% 75% at 50% 48%,#fff6dc,#f8dc9f 50%,#ecbf6e 100%)}
-.soglia .door{position:absolute;inset:0;transform-origin:100% 50%;transform-style:preserve-3d;background:linear-gradient(180deg,#f4f1eb,#efebe4 60%,#ebe6de);box-shadow:0 0 0 1.5px #141210}
-.soglia .door .shade{position:absolute;inset:0;background:#5e554b;opacity:0}
-.soglia .door .lit{position:absolute;inset:0;background:linear-gradient(90deg,rgba(255,228,180,.0),rgba(255,228,180,.55));opacity:0;mix-blend-mode:screen}
-.soglia .rose{position:absolute;left:6%;top:52%;width:calc(var(--W)*.075);aspect-ratio:1;border-radius:2px;background:linear-gradient(135deg,#d9d6d0,#8d8a84 55%,#b9b5ae);box-shadow:0 1px 2px rgba(0,0,0,.35)}
-.soglia .lever{position:absolute;left:35%;top:30%;width:calc(var(--W)*.17);height:calc(var(--W)*.034);border-radius:1px;background:linear-gradient(180deg,#e6e3dd,#8a8781 60%,#a9a59e);box-shadow:0 2px 3px rgba(0,0,0,.35);transform-origin:calc(var(--W)*.0) 50%}
-.soglia .key{position:absolute;left:6%;top:calc(52% + var(--W)*.12);width:calc(var(--W)*.075);aspect-ratio:1;border-radius:2px;background:linear-gradient(135deg,#d9d6d0,#8d8a84 55%,#b9b5ae)}
 .soglia .key::after{content:"";position:absolute;left:50%;top:28%;width:22%;height:44%;transform:translateX(-50%);border-radius:40% 40% 20% 20%;background:#2a2622}
-.soglia .ui{position:absolute;left:50%;top:calc(100% - var(--floor) - var(--H)*.3);transform:translate(-50%,0);pointer-events:none;display:flex;flex-direction:column;align-items:center;gap:1.1rem;z-index:3;transition:opacity .5s ease}
 .soglia .hold{position:absolute;left:50%;bottom:var(--floor);width:var(--W);height:var(--H);transform:translateX(-50%);z-index:3;border:0;padding:0;margin:0;background:none;cursor:pointer;touch-action:none;-webkit-touch-callout:none;-webkit-tap-highlight-color:transparent}
 .soglia .hold:focus-visible{outline:2px solid var(--oro);outline-offset:6px}
-.soglia .holdhint{padding:.7em 1.2em;border-radius:999px;background:rgba(24,19,14,.5);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);font:500 .62rem/1 var(--body);letter-spacing:.32em;text-transform:uppercase;color:rgba(248,236,212,.85);text-shadow:0 1px 10px rgba(0,0,0,.5);white-space:nowrap}
-.soglia .holdhint.nudge{animation:nudge .5s ease}
-@keyframes nudge{0%,100%{transform:none}25%{transform:translateX(-6px)}75%{transform:translateX(6px)}}
-.soglia .top{position:absolute;left:var(--gutter);right:var(--gutter);top:calc(env(safe-area-inset-top,0px) + 6.5rem);display:flex;justify-content:space-between;align-items:baseline;z-index:2;pointer-events:none}
-.soglia .top .serif{font-size:clamp(1.5rem,3vw,2.6rem);color:#f4ecdf}
-.soglia .top .serif em{font-style:italic;color:#e8c983}
-.soglia .skip{pointer-events:auto;font:500 .62rem/1 var(--body);letter-spacing:.28em;text-transform:uppercase;color:rgba(29,27,24,.55);text-decoration:none;border-bottom:1px solid rgba(29,27,24,.25);padding-bottom:.35em}
-.soglia .skip:hover{color:#e8c983;border-color:#e8c983}
-.soglia .cream{position:absolute;inset:0;z-index:1;background:var(--bg);pointer-events:none}
-.soglia .stitle{position:absolute;left:var(--gutter);right:var(--gutter);top:calc(var(--vh,1vh)*10);z-index:2;margin:0;text-align:center;font-size:clamp(2.6rem,6.2vw,6.4rem);line-height:.96;letter-spacing:-.02em;color:#1d1b18;text-shadow:none;pointer-events:none;transform-origin:50% 55%;will-change:transform,opacity,filter;opacity:0}
+.soglia .holdhint{padding:.7em 1.2em;border-radius:999px;backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);font:500 .75rem/1 var(--body);text-transform:uppercase;text-shadow:0 1px 10px rgba(0,0,0,.5);white-space:nowrap;background:rgba(24,19,14,.58);border:0;color:rgba(248,236,212,.92);display:flex;align-items:center;gap:.7em}
+.soglia .stitle{position:absolute;left:var(--gutter);right:var(--gutter);top:calc(var(--vh,1vh)*10);z-index:2;margin:0;text-align:center;font-size:clamp(2.6rem,6.2vw,6.4rem);line-height:.96;letter-spacing:-.02em;text-shadow:none;pointer-events:none;transform-origin:50% 55%;will-change:transform,opacity,filter;opacity:0;color:#efe8dc}
 .soglia .stitle .ln{display:block}
-.soglia .stitle em{font-style:italic;color:#a8812f}
-.soglia .top{z-index:3}
+.soglia .top{position:absolute;left:var(--gutter);right:var(--gutter);top:calc(env(safe-area-inset-top,0px) + 6.5rem);display:flex;justify-content:space-between;align-items:baseline;pointer-events:none;z-index:3}
 @media (max-width:640px){.soglia .stitle{top:calc(var(--vh,1vh)*14);font-size:clamp(2.5rem,12vw,4rem)}}
 /* shutter title: heavy sans, each letter blurs in while three slices sweep across it */
-.soglia .stitle.shutter{font-family:var(--body);font-weight:900;letter-spacing:-.045em;line-height:.9;text-transform:none;font-size:clamp(2.8rem,8.4vw,8.6rem)}
+.soglia .stitle.shutter{text-transform:uppercase;font-size:clamp(2.3rem,6.6vw,6.8rem)}
 .shutter .ln{display:block}
 .shutter .w{display:inline-block;white-space:nowrap}
 .shutter .sp{display:inline-block;width:.24em}
-.shutter .gold{color:#a8812f}
 .shutter .ch{position:relative;display:inline-block;overflow:hidden;padding:.1em .01em .16em;margin:-.1em 0 -.16em;vertical-align:top}
 .shutter .m{display:inline-block;opacity:0;filter:blur(10px)}
 .shutter .s{position:absolute;inset:0;padding:.1em .01em .16em;opacity:0;pointer-events:none;transform:translateX(-100%)}
 .shutter .s1{color:#c49a3f;clip-path:polygon(0 0,100% 0,100% 35%,0 35%)}
-.shutter .s2{color:#2b2620;clip-path:polygon(0 35%,100% 35%,100% 65%,0 65%);transform:translateX(100%)}
 .shutter .s3{color:#c49a3f;clip-path:polygon(0 65%,100% 65%,100% 100%,0 100%)}
 .shutter.go .m{animation:shIn .8s ease forwards;animation-delay:calc(var(--i)*.04s + .3s)}
 .shutter.go .s1{animation:shR .7s ease-in-out forwards;animation-delay:calc(var(--i)*.04s)}
@@ -219,143 +160,60 @@ form{display:grid;gap:1.6rem;max-width:34rem}
 @keyframes shIn{to{opacity:1;filter:blur(0)}}
 @keyframes shR{0%{transform:translateX(-100%);opacity:0}50%{opacity:1}100%{transform:translateX(100%);opacity:0}}
 @keyframes shL{0%{transform:translateX(100%);opacity:0}50%{opacity:1}100%{transform:translateX(-100%);opacity:0}}
-@media (max-width:640px){.soglia .stitle.shutter{font-size:clamp(2.6rem,13.5vw,4.4rem)}.soglia .top{top:auto;bottom:calc(var(--vh,1vh)*4.5);flex-direction:row;justify-content:center}}
+@media (max-width:640px){.soglia .stitle.shutter{font-size:clamp(2.1rem,10.5vw,3.5rem)}.soglia .top{top:auto;bottom:calc(var(--vh,1vh)*4.5);flex-direction:row;justify-content:center}}
 @media (prefers-reduced-motion:reduce){.shutter .m{opacity:1;filter:none;animation:none!important}.shutter .s{display:none}}
-.percorso h2:focus{outline:none}
-.flash{position:fixed;inset:0;z-index:60;pointer-events:none;opacity:0;background:radial-gradient(ellipse at 50% 50%,#fffaf0,#fff0d2 55%,#ffe2ab);transition:opacity .9s ease}
-.flash.on{opacity:1}
-.flash.out{transition:opacity 1.6s ease}
-@media (max-width:640px){.soglia{--H:min(calc(var(--vh,1vh)*56),calc(calc(var(--vh,1vh)*100) - 17rem));--floor:calc(var(--vh,1vh)*14)}.soglia .holdhint{font-size:.56rem;letter-spacing:.26em}.soglia .top{flex-direction:column;gap:.8rem}}
-/* il percorso: dark cinematic infographic, from request to delivery */
-.percorso{position:relative;isolation:isolate;background:#070605;color:#f4f1eb;padding:18vh var(--gutter) 14vh;overflow:hidden}
-.percorso .pbg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.62;filter:saturate(.8) contrast(1.05);z-index:-2}
-.percorso .pveil{position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(7,6,5,.7) 0%,rgba(7,6,5,.3) 22%,rgba(7,6,5,.5) 36%,rgba(7,6,5,.9) 52%,rgba(7,6,5,.97) 72%,#070605 100%),linear-gradient(90deg,rgba(7,6,5,.7),rgba(7,6,5,.2) 45%,rgba(7,6,5,.55))}
-.phead{display:flex;justify-content:space-between;align-items:flex-end;gap:2rem 4rem;flex-wrap:wrap;margin-bottom:clamp(3rem,10vh,6.5rem)}
-.phead .label{margin-bottom:1.4rem}
-.phead h2{font-size:clamp(2.4rem,6.2vw,6.4rem);line-height:.98;max-width:none}
-.phead h2 em,.pfoot em{font-style:italic;color:#d9b262}
-.phead .sub{max-width:30rem;margin:0 0 .6rem;color:rgba(244,241,235,.82);font-size:clamp(1rem,1.3vw,1.25rem);line-height:1.55}
-.acts{display:grid;grid-template-columns:repeat(8,minmax(0,1fr));column-gap:1.6rem;margin-bottom:1.1rem}
-.acts div{font:500 .64rem/1 var(--body);letter-spacing:.3em;text-transform:uppercase;color:rgba(244,241,235,.6);padding-bottom:.85rem;border-bottom:1px solid rgba(217,178,98,.45)}
-.acts div b{color:#f4f1eb;font-weight:500}
-.acts .a1{grid-column:1/4}.acts .a2{grid-column:4/6;color:#d9b262;border-color:rgba(217,178,98,.9)}.acts .a3{grid-column:6/9}
-.steps8{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(8,minmax(0,1fr));gap:3rem 1.6rem;position:relative}
-.steps8::before{content:"";position:absolute;left:0;right:0;top:32px;height:1px;background:linear-gradient(90deg,rgba(217,178,98,.15),rgba(217,178,98,.55) 40%,rgba(217,178,98,.55) 60%,rgba(217,178,98,.15))}
-.steps8 li{position:relative;z-index:1;display:grid;gap:1rem;align-content:start}
-.steps8 .n{width:64px;height:64px;display:grid;place-items:center}
-.steps8 .n span{width:44px;height:44px;border-radius:50%;border:1px solid rgba(217,178,98,.8);background:#0b0908;display:grid;place-items:center;font:600 1rem/1 var(--display);color:#d9b262}
-.steps8 li.key .n span{width:64px;height:64px;background:#d9b262;color:#120e0a;border:0;box-shadow:0 0 0 10px rgba(217,178,98,.12),0 0 48px 6px rgba(217,178,98,.45);font-size:1.3rem}
-.steps8 svg{width:26px;height:26px;display:block}
-.steps8 h3{margin:0;font:500 clamp(1.25rem,1.6vw,1.6rem)/1.1 var(--display);letter-spacing:-.01em}
-.steps8 li.key h3{color:#d9b262}
-.steps8 p{margin:0;font-size:.92rem;line-height:1.55;color:rgba(244,241,235,.74)}
-.steps8 li.key p{color:rgba(244,241,235,.9)}
-.pfoot{margin-top:clamp(3.5rem,10vh,6.5rem);padding-top:2rem;border-top:1px solid rgba(244,241,235,.12);display:flex;justify-content:space-between;align-items:center;gap:1.5rem 2rem;flex-wrap:wrap}
-.pfoot .serif{font-size:clamp(1.6rem,2.6vw,2.5rem);max-width:none}
-.pfoot .where{font:400 .72rem/1.4 var(--body);letter-spacing:.24em;text-transform:uppercase;color:rgba(244,241,235,.62)}
-.pfoot .go{display:flex;align-items:center;gap:1.6rem 2rem;flex-wrap:wrap}
-@media (max-width:1200px){.acts{display:none}.steps8{grid-template-columns:repeat(4,minmax(0,1fr))}.steps8::before{display:none}}
-@media (max-width:640px){.percorso{padding-top:12vh}.steps8{grid-template-columns:1fr;row-gap:2.2rem}
-  .steps8::before{display:block;left:31px;right:auto;top:10px;bottom:10px;width:1px;height:auto;background:linear-gradient(180deg,rgba(217,178,98,.15),rgba(217,178,98,.55) 30%,rgba(217,178,98,.55) 70%,rgba(217,178,98,.15))}
-  .steps8 li{grid-template-columns:64px 1fr;column-gap:1.1rem;row-gap:.5rem}.steps8 .n{grid-row:1/3}.steps8 svg{display:none}.steps8 h3{align-self:end}.steps8 p{grid-column:2}}
+@media (max-width:640px){.soglia{--H:min(calc(var(--vh,1vh)*56),calc(calc(var(--vh,1vh)*100) - 17rem));--floor:calc(var(--vh,1vh)*14)}.soglia .holdhint{font-size:.75rem;letter-spacing:.26em}.soglia .top{flex-direction:column;gap:.8rem}}
 /* il percorso: animation layer */
-.percorso .pbg{transform:scale(1.14) translate3d(0,var(--py,0px),0);transform-origin:50% 40%;will-change:transform}
-.percorso .dust{position:absolute;inset:0;z-index:-1;pointer-events:none;overflow:hidden}
-.percorso .dust i{position:absolute;width:var(--d);height:var(--d);border-radius:50%;background:#e8c983;box-shadow:0 0 8px 2px rgba(232,201,131,.55);opacity:0;animation:dust 14s linear infinite}
-@keyframes dust{0%{opacity:0;transform:translate3d(0,40px,0)}15%{opacity:.75}70%{opacity:.5}100%{opacity:0;transform:translate3d(30px,-180px,0)}}
-.percorso .sweep2{position:absolute;inset:-20% -40%;z-index:-1;pointer-events:none;background:linear-gradient(105deg,transparent 42%,rgba(217,178,98,.07) 50%,transparent 58%);animation:sweep2 9s ease-in-out infinite}
-@keyframes sweep2{0%{transform:translateX(-30%)}55%,100%{transform:translateX(30%)}}
-.phead h2 .ln{display:block;overflow:hidden;padding-bottom:.06em}
-.phead h2 .ln>span{display:inline-block;transform:translateY(108%);transition:transform 1.2s cubic-bezier(.16,.8,.24,1)}
-.phead:not(.pre) h2 .ln>span{transform:none}
-.acts div{position:relative;border-bottom-color:transparent}
-.acts div::after{content:"";position:absolute;left:0;right:0;bottom:-1px;height:1px;background:inherit;background:rgba(217,178,98,.5);transform:scaleX(0);transform-origin:0 50%;transition:transform 1.4s cubic-bezier(.2,.7,.2,1)}
-.acts .a2::after{background:#d9b262}
-.acts:not(.pre) div::after{transform:scaleX(1)}
-.acts:not(.pre) .a2::after{transition-delay:.35s}.acts:not(.pre) .a3::after{transition-delay:.7s}
-.steps8{--pp:0}
-.steps8::after{content:"";position:absolute;left:0;right:0;top:32px;height:2px;margin-top:-.5px;background:linear-gradient(90deg,#a8843c,#e8c983);box-shadow:0 0 14px rgba(232,201,131,.6);transform:scaleX(var(--pp));transform-origin:0 50%}
-.steps8 .comet{position:absolute;top:32px;left:calc(var(--pp)*100%);width:12px;height:12px;margin:-6px 0 0 -6px;border-radius:50%;background:#fff3d6;box-shadow:0 0 0 4px rgba(232,201,131,.25),0 0 22px 8px rgba(232,201,131,.7);pointer-events:none;z-index:0;opacity:calc(min(1,var(--pp)*20))}
-.steps8 li:not(.comet){opacity:.38;transform:translateY(10px);transition:opacity .9s ease,transform .9s cubic-bezier(.2,.7,.2,1)}
-.steps8 li.lit{opacity:1;transform:none}
-.steps8 .n span{transition:background .6s ease,color .6s ease,box-shadow .8s ease,border-color .6s ease}
-.steps8 li.lit:not(.key) .n span{background:#1a140c;border-color:#e8c983;color:#f4e3b8;box-shadow:0 0 0 6px rgba(217,178,98,.08),0 0 26px 2px rgba(217,178,98,.35)}
-.steps8 li.key .n{position:relative}
-.steps8 li.key .n::before,.steps8 li.key .n::after{content:"";position:absolute;inset:0;border-radius:50%;border:1px solid rgba(232,201,131,.6);opacity:0}
-.steps8 li.key.lit .n::before{animation:ring 2.6s ease-out infinite}.steps8 li.key.lit .n::after{animation:ring 2.6s ease-out 1.3s infinite}
-@keyframes ring{0%{transform:scale(1);opacity:.8}100%{transform:scale(2.1);opacity:0}}
-.steps8 svg *{stroke-dasharray:1;stroke-dashoffset:1;transition:stroke-dashoffset 1.6s cubic-bezier(.4,0,.2,1) .2s}
-.steps8 li.lit svg *{stroke-dashoffset:0}
-.steps8 h3{transition:color .6s ease}
-.steps8 li:not(.comet):hover h3{color:#e8c983}
-@media (max-width:1200px){.steps8::after,.steps8 .comet{display:none}}
-@media (max-width:640px){.steps8::after,.steps8 .comet{display:block}
-  .steps8::after{left:31px;right:auto;top:10px;bottom:10px;width:2px;height:auto;margin:0 0 0 -.5px;background:linear-gradient(180deg,#a8843c,#e8c983);transform:scaleY(var(--pp));transform-origin:50% 0}
-  .steps8 .comet{left:32px;top:calc(10px + var(--pp)*(100% - 20px))}}
-@media (prefers-reduced-motion:reduce){.percorso .dust,.percorso .sweep2,.steps8 .comet{display:none}.percorso .pbg{transform:none}.phead h2 .ln>span{transform:none;transition:none}.steps8 li:not(.comet){opacity:1;transform:none}.steps8 svg *{stroke-dashoffset:0;transition:none}.steps8::after{transform:none}.acts div::after{transform:scaleX(1)}.steps8 li.key.lit .n::before,.steps8 li.key.lit .n::after{animation:none}}
-footer{padding:2.5rem var(--gutter);border-top:1px solid var(--line);background:var(--bg-deep);display:flex;flex-wrap:wrap;justify-content:space-between;gap:1rem;font-size:.78rem;letter-spacing:.06em;color:var(--fg-soft)}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.fx,.fx.pre,.cap{transition:none;opacity:1;transform:none}}
 
 /* intro: on bianco stellare, the coloured mark takes shape out of a gold→blue gradient, then the page begins */
-.intro{position:fixed;inset:0;z-index:50;background:#f1eee8;display:grid;place-items:center;overflow:hidden;transition:opacity 1.1s ease,transform 1.1s ease;isolation:isolate}
 .intro.out{opacity:0;pointer-events:none}
 /* safety: if scripts never run, the curtain lifts by itself */
-.intro{animation:introSafe .8s ease 7s forwards}
+.intro{position:fixed;inset:0;z-index:50;background:#f1eee8;display:grid;place-items:center;overflow:hidden;isolation:isolate;animation:introSafe .8s ease 7s forwards;transition:opacity .6s ease}
 @keyframes introSafe{to{opacity:0;visibility:hidden;pointer-events:none}}
 .intro .mark{position:relative;display:grid;grid-template-columns:387fr 257fr 436fr;width:min(44vw,400px);align-items:center}
 .intro .mark img{width:100%;height:auto;will-change:transform,opacity,filter;opacity:0}
 .intro .olos{transform:translateX(-50vw)}
 .intro .hera{transform:translateX(50vw)}
 .intro .sym{transform:scale(.1);filter:blur(16px)}
-.intro.go .olos,.intro.go .hera{transform:none;transition:transform 1.8s cubic-bezier(.16,.8,.24,1),opacity 1s ease .9s}
-.intro.go .sym{transform:none;filter:blur(0);transition:transform 1.8s cubic-bezier(.16,.8,.24,1),filter 1.8s ease,opacity 1s ease .9s}
+.intro.go .olos,.intro.go .hera{transform:none;transition:transform 1.3s cubic-bezier(.16,.8,.24,1),opacity .6s ease .5s}
+.intro.go .sym{transform:none;filter:blur(0);transition:transform 1.3s cubic-bezier(.16,.8,.24,1),filter 1.3s ease,opacity .6s ease .5s}
 .intro.go .mark img{opacity:1}
 /* the gradient that becomes the logo */
 .intro .sweep{position:absolute;inset:0;-webkit-mask:url(logo-color.png) center/100% 100% no-repeat;mask:url(logo-color.png) center/100% 100% no-repeat;background:linear-gradient(100deg,#d9b262 0%,#d9b262 30%,#6b3fa0 55%,#3a2f5c 80%,#3a2f5c 100%);background-size:320% 100%;background-position:100% 0;opacity:0;transform:scale(1.06);filter:blur(6px);pointer-events:none}
 .intro.go .sweep{opacity:0;background-position:0% 0;transform:none;filter:blur(0);animation:sweep 2.4s ease forwards}
 @keyframes sweep{0%{opacity:0;background-position:100% 0;filter:blur(8px)}25%{opacity:1}70%{opacity:1;filter:blur(0)}100%{opacity:0;background-position:0% 0}}
-.intro .tag{position:absolute;left:50%;bottom:12vh;transform:translateX(-50%);font:500 .66rem/1 var(--body);letter-spacing:.3em;text-transform:uppercase;color:#1d1b18;opacity:0;transition:opacity .9s ease 1.6s}
+.intro .tag{position:absolute;left:50%;bottom:12vh;transform:translateX(-50%);font:500 .75rem/1 var(--body);letter-spacing:.3em;text-transform:uppercase;color:#1d1b18;opacity:0;transition:opacity .9s ease 1.6s}
 .intro.go .tag{opacity:.7}
-body.locked{overflow:hidden;animation:unlockSafe 0s linear 7s forwards}
-@keyframes unlockSafe{to{overflow:visible}}
 @media (prefers-reduced-motion:reduce){.intro{display:none}}
 /* premium finish: film grain and hairlines */
 .grain{position:fixed;inset:0;z-index:40;pointer-events:none;opacity:.07;mix-blend-mode:multiply;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 .2 0 0 0 0 .18 0 0 0 0 .15 0 0 0 .7 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");background-size:160px 160px}
-.nav{padding-block:1.4rem}
-.nav img{height:22px}
+.nav{position:fixed;inset:env(safe-area-inset-top,0px) 0 auto 0;z-index:30;display:flex;justify-content:space-between;align-items:center;padding:1.1rem var(--gutter);mix-blend-mode:normal;padding-block:1.4rem}
+.nav img{width:auto;height:22px}
 .nav .lg-c{display:none}
 .nav.onlight .lg-w{display:none}
 .nav.onlight .lg-c{display:block}
-.nav a.word{color:#efeff8;border-color:rgba(239,239,248,.35);background:rgba(28,24,20,.25)}
+.nav a.word{font:500 .75rem/1 var(--body);text-transform:uppercase;text-decoration:none;padding:.7em 1.1em;border:1px solid var(--line);border-radius:999px;backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);color:#efeff8;border-color:rgba(239,239,248,.35);background:rgba(28,24,20,.25);font-size:.75rem;letter-spacing:.28em}
 .nav.onlight a.word{color:var(--fg);border-color:var(--line);background:rgba(241,238,232,.78)}
-.nav a.word{font-size:.66rem;letter-spacing:.28em}
 .nav a.word:hover{border-color:var(--oro);color:var(--oro)}
-.btn{font-size:.72rem;letter-spacing:.22em;padding:1em 1.9em}
-.label{font-size:.64rem;letter-spacing:.3em}
-.scene .label{margin-bottom:2.8rem}
-.scene .sub{color:var(--fg-soft)}
+.btn{background:#d9b262;display:inline-flex;align-items:center;gap:.7em;border-radius:999px;font:500 .82rem/1 var(--body);text-transform:uppercase;text-decoration:none;color:#1d1b18;background:var(--oro);border:0;cursor:pointer;transition:transform .25s ease,filter .25s ease;font-size:.75rem;letter-spacing:.22em;padding:1em 1.9em}
+.scene .label{display:flex;gap:1.2em;align-items:baseline;margin-bottom:2.8rem}
 
 /* Ollie: enters big from the corner at the white ending, explains the services, then shrinks and stays */
-.ollie{position:fixed;right:clamp(12px,4vw,56px);bottom:0;z-index:35;width:clamp(96px,11vw,150px);transform:translate(70%,80%) scale(.7);transition:transform 1.5s cubic-bezier(.2,.8,.2,1),width 1.2s cubic-bezier(.2,.8,.2,1);pointer-events:none;}
+.ollie{position:fixed;right:clamp(12px,4vw,56px);bottom:0;z-index:35;width:clamp(96px,11vw,150px);transform:translate(70%,80%) scale(.7);transition:transform 1.5s cubic-bezier(.2,.8,.2,1),width 1.2s cubic-bezier(.2,.8,.2,1);pointer-events:none;user-select:none;-webkit-user-select:none;--os:.47;}
 .ollie.on{transform:translate(0,4%) scale(1)}
 .ollie.big{width:clamp(170px,24vw,320px)}
 .ollie .stage3d{position:relative;width:100%;aspect-ratio:3/4.4;pointer-events:auto;cursor:pointer;-webkit-tap-highlight-color:transparent}
-.ollie .fallback2d{pointer-events:auto;cursor:pointer}
 .ollie.happy .fallback2d{animation:hop .7s cubic-bezier(.3,.7,.3,1)}
 @keyframes hop{0%,100%{transform:none}40%{transform:translateY(-8%) scale(1.05)}}
-.ollie .fallback2d{width:100%;height:auto;display:block;filter:drop-shadow(0 18px 22px rgba(60,30,10,.18))}
+.ollie .fallback2d{pointer-events:auto;cursor:pointer;width:100%;height:auto;display:block;filter:drop-shadow(0 18px 22px rgba(60,30,10,.18))}
 .ollie.is2d .stage3d{display:none}
 .ollie canvas{position:absolute;inset:-12% -20% 0 -20%;width:140%;height:112%;display:block}
-.ollie .lid{transform-box:fill-box;transform-origin:center;transform:scaleY(0);animation:blink 5.2s infinite}
-.ollie .eye2 .lid{animation-delay:.04s}
-@keyframes blink{0%,92%,100%{transform:scaleY(0)}95%,97%{transform:scaleY(1.05)}}
-.ollie .iris{transition:transform .18s ease-out}
 /* speech bubble */
-.bubble{position:absolute;right:calc(100% + 18px);top:4%;width:min(320px,62vw);background:#fff;color:#1d1b18;border-radius:18px 18px 4px 18px;padding:1.1rem 1.25rem 1rem;font:300 .98rem/1.5 var(--body);box-shadow:0 18px 40px rgba(60,30,10,.14),0 1px 0 rgba(60,30,10,.06);opacity:0;transform:translateY(10px) scale(.96);transform-origin:100% 20%;transition:opacity .5s ease,transform .5s cubic-bezier(.2,.8,.2,1);pointer-events:auto}
-.bubble::after{content:"";position:absolute;right:-10px;top:26px;border:8px solid transparent;border-left-color:#fff;border-top-color:#fff}
+.bubble{position:absolute;width:min(320px,62vw);color:#1d1b18;padding:1.1rem 1.25rem 1rem;font:300 .98rem/1.5 var(--body);opacity:0;transform:translateY(10px) scale(.96);transition:opacity .5s ease,transform .5s cubic-bezier(.2,.8,.2,1);pointer-events:auto}
+.bubble::after{content:"";position:absolute;border-left-color:#fff}
 .bubble.on{opacity:1;transform:none}
-.peek{position:absolute;right:30%;bottom:calc(100% - 4%);background:#fff;color:#1d1b18;border-radius:14px 14px 4px 14px;padding:.55em .85em;font:400 .8rem/1.2 var(--body);white-space:nowrap;box-shadow:0 10px 24px rgba(60,30,10,.16);opacity:0;transform:translateY(6px);transition:opacity .4s ease,transform .4s ease;pointer-events:none}
-.peek b{color:#ad4814;font-weight:500}
+.peek{position:absolute;right:30%;bottom:calc(100% - 4%);background:#fff;color:#1d1b18;border-radius:14px 14px 4px 14px;padding:.55em .85em;font:400 .8rem/1.2 var(--body);white-space:nowrap;box-shadow:0 10px 24px rgba(60,30,10,.16);opacity:0;transform:translateY(6px);transition:opacity .4s ease,transform .4s ease;pointer-events:none;cursor:pointer}
 .peek.on{opacity:1;transform:none}
 .ollie:not(.on) .peek{opacity:0}
 body.typing .ollie{opacity:0;pointer-events:none;transition:opacity .3s}
@@ -366,17 +224,9 @@ body.typing .ollie{opacity:0;pointer-events:none;transition:opacity .3s}
 .bubble .dots{display:flex;gap:5px}
 .bubble .dots i{width:5px;height:5px;border-radius:50%;background:rgba(29,27,24,.18)}
 .bubble .dots i.on{background:#ad4814}
-.bubble .next,.bubble .x{background:none;border:0;cursor:pointer;font:500 .68rem/1 var(--body);letter-spacing:.18em;text-transform:uppercase;color:#ad4814;padding:.4em 0}
-.bubble .x{color:rgba(29,27,24,.45);position:absolute;top:.5rem;right:.7rem;font-size:1rem;letter-spacing:0}
-.bubble .btn{display:inline-flex;margin-top:.6rem;background:#d9b262}
-@media (max-width:640px){.ollie.big{width:32vw}body.talking .cap.group{padding-right:34vw}body.talking .cap.group .btn{font-size:.62rem;padding:.9em 1.3em;line-height:1.35}.bubble{right:0;top:auto;bottom:calc(100% - 6%);width:min(86vw,360px);border-radius:18px 18px 18px 4px}.bubble::after{right:22px;top:100%;border:8px solid transparent;border-top-color:#fff;border-right-color:#fff}}
-@media (prefers-reduced-motion:reduce){.ollie .lid{animation:none}}
-
-/* blinking Prenota buttons */
-@keyframes prenotaPulse{0%,100%{box-shadow:0 0 0 0 rgba(217,178,98,.0);filter:brightness(1)}45%{box-shadow:0 0 0 10px rgba(217,178,98,.0),0 0 26px 6px rgba(217,178,98,.75);filter:brightness(1.12)}55%{box-shadow:0 0 0 14px rgba(217,178,98,0),0 0 30px 8px rgba(217,178,98,.6);filter:brightness(1.15)}}
-.bubble .btn.pulse,body.pulse-prenota .cap .btn,body.pulse-prenota .nav a.word,body.pulse-prenota #bookForm .btn{animation:prenotaPulse 1.15s ease-in-out infinite}
-body.pulse-prenota .nav a.word{border-color:#d9b262;color:#1d1b18;background:#d9b262}
-@media (prefers-reduced-motion:reduce){.bubble .btn.pulse,body.pulse-prenota .cap .btn,body.pulse-prenota .nav a.word,body.pulse-prenota #bookForm .btn{animation:none;box-shadow:0 0 0 3px rgba(217,178,98,.6)}}
+.bubble .next,.bubble .x{background:none;border:0;cursor:pointer;font:500 .75rem/1 var(--body);letter-spacing:.18em;text-transform:uppercase;color:#ad4814;padding:.4em 0}
+.bubble .x{position:absolute;top:.5rem;right:.7rem;font-size:1rem;letter-spacing:0}
+@media (max-width:640px){.ollie.big{width:32vw}body.talking .cap.group{padding-right:34vw}.bubble{right:0;top:auto;bottom:calc(100% - 6%);width:min(86vw,360px);border-radius:18px 18px 18px 4px}.bubble::after{right:22px;top:100%;border:8px solid transparent;border-top-color:#fff;border-right-color:#fff}}
 
 /* cute reaction: hearts and a 2D shake for the fallback */
 .ollie .heart{position:absolute;bottom:62%;width:22px;height:20px;pointer-events:none;transform:translate(-50%,0) scale(var(--s,1));animation:heartUp 1.7s cubic-bezier(.2,.7,.3,1) forwards;z-index:2}
@@ -384,22 +234,378 @@ body.pulse-prenota .nav a.word{border-color:#d9b262;color:#1d1b18;background:#d9
 @keyframes heartUp{0%{opacity:0;transform:translate(-50%,10px) scale(calc(var(--s,1)*.4))}15%{opacity:1}100%{opacity:0;transform:translate(calc(-50% + var(--dx,0px)),-140px) scale(var(--s,1))}}
 .ollie.is2d.shake .fallback2d{animation:shake2d .6s ease}
 @keyframes shake2d{0%,100%{transform:none}20%{transform:rotate(-7deg)}40%{transform:rotate(6deg)}60%{transform:rotate(-4deg)}80%{transform:rotate(2deg)}}
-.ollie{user-select:none;-webkit-user-select:none}
 @media (prefers-reduced-motion:reduce){.ollie .heart{animation-duration:.01s}}
 
-/* type system overrides: Ortica headings (no italic: the gold words go light), Necto Mono for every label, number and button */
+/* type system overrides: Cormorant headings, Outfit (tracked caps) for every label, number and button */
 .serif{font-weight:400;letter-spacing:-.02em;line-height:1.02}
-.serif em,.cap em,.scene .serif em,.phead h2 em,.pfoot em{font-style:normal;font-weight:300}
-.steps8 h3{font-family:var(--display);font-weight:400;letter-spacing:-.015em}
-.label,.cap.group .label,.nav a.word,.btn,.soglia .holdhint,.soglia .skip,.acts div,.pfoot .where,.f label,.meta dt,.bubble .next,.hint .label,.intro .tag,.steps8 .n span,.peek{font-family:var(--mono);font-weight:400}
-.label,.cap.group .label,.hint .label{letter-spacing:.16em}
+.serif em,.cap em,.scene .serif em{font-style:normal;font-weight:300}
+.label,.cap.group .label,.nav a.word,.btn,.soglia .holdhint,.f label,.meta dt,.bubble .next,.intro .tag,.peek{font-family:var(--mono);font-weight:400}
+.label,.cap.group .label{letter-spacing:.16em}
 .nav a.word,.btn{letter-spacing:.14em}
-.acts div,.pfoot .where,.soglia .holdhint,.soglia .skip,.f label,.meta dt{letter-spacing:.14em}
-.steps8 .n span{font-size:.9rem}
-.steps8 li.key .n span{font-size:1.15rem}
-.soglia .stitle.shutter{font-family:"cofo-raffine","Ortica Angular","Ortica",sans-serif;font-weight:500;letter-spacing:-.02em;line-height:.95}
+.soglia .holdhint,.f label,.meta dt{letter-spacing:.14em}
+.soglia .stitle.shutter{font-family:var(--display);font-weight:500;letter-spacing:.01em;line-height:1}
+
+/* la soglia al buio: the room is dark; the only light is the blade escaping from the ajar door, on the floor and in the air */
+.soglia .door .edge{position:absolute;left:0;top:0;bottom:0;width:3px;background:linear-gradient(180deg,rgba(255,236,200,.35),rgba(255,214,150,.95) 40%,rgba(255,214,150,.7));opacity:calc(var(--g,.8)*.9);box-shadow:0 0 8px rgba(255,205,130,.6)}
+.soglia .slit{position:absolute;left:-1px;top:0;bottom:0;width:2px;background:linear-gradient(180deg,rgba(255,244,215,.75),#ffe2a8 35%,#ffd28a 80%,rgba(255,210,140,.8));box-shadow:0 0 10px 2px rgba(255,205,130,.8),0 0 42px 10px rgba(255,186,100,.32);pointer-events:none}
+.soglia .beam{filter:blur(14px)}
+.soglia .wedge{filter:blur(3px)}
+.soglia .beamc,.soglia .wedgec{position:absolute;inset:0}
+.soglia .motes i{position:absolute;left:calc(var(--jx,0px) - var(--x)*var(--sp,100px)*1.7);top:calc(var(--top,0px) + var(--y)*var(--h,100px)*.95);width:var(--d);height:var(--d);border-radius:50%;background:#ffe9c2;box-shadow:0 0 6px 1px rgba(255,214,150,.7);opacity:0;animation:mote 14s linear infinite}
+@keyframes mote{0%{opacity:0;transform:translate3d(0,0,0)}20%{opacity:.85}80%{opacity:.5}100%{opacity:0;transform:translate3d(-26px,-60px,0)}}
+.shutter .gold{color:inherit}
+.shutter .s2{clip-path:polygon(0 35%,100% 35%,100% 65%,0 65%);transform:translateX(100%);color:#efe8dc}
+@media (prefers-reduced-motion:reduce){.soglia .motes{display:none}}
+/* dusk: the white ending sinks into the dark room through a long eased gradient with a warm gold haze; it rides on the last screen of the opener, so no extra scroll */
+.scrub .dusk{position:absolute;left:0;right:0;bottom:0;height:calc(var(--vh,1vh)*95);z-index:2;pointer-events:none;
+  background:
+    radial-gradient(ellipse 90% 22% at 50% 30%,rgba(214,172,96,.13),rgba(214,172,96,0) 70%),
+    linear-gradient(180deg,rgba(10,8,6,0) 0%,rgba(10,8,6,.025) 5.5%,rgba(28,20,13,.08) 11%,rgba(34,24,15,.18) 16.5%,rgba(30,22,14,.32) 22%,rgba(24,18,12,.5) 27.5%,rgba(18,13,9,.68) 33%,rgba(13,10,7,.83) 38.5%,rgba(27,26,25,.94) 44%,#1b1a19 49.5%,#1b1a19 100%)}
+.soglia .cream{position:absolute;inset:0;z-index:1;background:var(--bg);pointer-events:none;display:none}
+/* the big title: it rises softly out of the dusk, almost filling the screen, then travels down and lands above the door */
+.bigt{position:fixed;inset:0;z-index:25;pointer-events:none;opacity:0;visibility:hidden}
+.bigt .bl{position:absolute;inset:0}
+.bigt .bt{position:absolute;left:var(--gutter);right:var(--gutter);top:0;text-align:center;font-family:var(--display);font-weight:500;letter-spacing:.01em;line-height:1;text-transform:uppercase;transform-origin:50% 50%;will-change:transform}
+.bigt .ln{display:table;margin:0 auto;white-space:nowrap}
+.bigt .w{display:inline-block;white-space:nowrap}
+.bigt .sp{display:inline-block;width:.24em}
+.bigt .lt{display:inline-block;padding:.1em .01em .16em;margin:-.1em 0 -.16em;vertical-align:top;opacity:0;filter:blur(14px);transform:translateY(.12em)}
+.bigt.go .lt{animation:bigIn 1.6s cubic-bezier(.2,.7,.2,1) forwards;animation-delay:calc(var(--i)*.06s)}
+@keyframes bigIn{to{opacity:1;filter:blur(0);transform:none}}
+.bigt .ink{color:#1d1b18}.bigt .ink .gold{color:inherit}
+.bigt .lite{color:#efe8dc}.bigt .lite .gold{color:inherit}
+.soglia .stitle.static .m{opacity:1;filter:none;animation:none!important}
+.soglia .stitle.static .s{display:none}
+/* museum spotlight above the door: a soft scallop on the wall, the top of the door lit white, the rest falling into shadow; the handle casts its shadow downwards */
+.soglia .cone{position:absolute;left:50%;top:0;width:calc(var(--W)*2.4);height:calc(100% - var(--floor) - var(--H)*1.05);transform:translateX(-50%);pointer-events:none;filter:blur(10px);mix-blend-mode:screen}
+.soglia .cone::before{content:"";position:absolute;inset:0;clip-path:polygon(45% 0,55% 0,100% 100%,0 100%);background:linear-gradient(180deg,rgba(255,240,215,0),rgba(255,240,215,.05) 45%,rgba(255,236,206,.09))}
+/* falloff: the wall is near white beside the door and sinks to dark grey with distance, like light losing strength */
+.soglia .floor::before{content:"";position:absolute;left:0;right:0;top:0;height:1px;background:rgba(0,0,0,.28)}
+/* halogen downlight just above the door: a triangular cone on the wall, exactly as white as the door where it touches it, losing strength with distance; the floor catches the foot of the cone; point-source shadows are crisp and fall straight down */
+.soglia .spot{position:absolute;left:50%;bottom:calc(var(--floor) + var(--H)*.02);width:calc(var(--W)*3.6);height:calc(var(--H)*1.62);transform:translateX(-50%);pointer-events:none;background:linear-gradient(180deg,rgba(255,242,222,0) 0%,rgba(255,242,222,.46) 16%,rgba(255,238,212,.30) 34%,rgba(255,232,200,.14) 62%,rgba(255,228,196,.05) 86%,rgba(255,228,196,.02) 100%);-webkit-mask-image:radial-gradient(ellipse 46% 120% at 50% 112%,#000 55%,rgba(0,0,0,.55) 72%,transparent 88%);mask-image:radial-gradient(ellipse 46% 120% at 50% 112%,#000 55%,rgba(0,0,0,.55) 72%,transparent 88%);display:none}
+.soglia .halo{position:absolute;left:50%;bottom:var(--floor);width:calc(var(--W)*4.2);height:calc(var(--H)*1.4);transform:translateX(-50%);pointer-events:none;filter:blur(calc(var(--W)*.06))}
+.soglia .haloc{position:absolute;inset:0;clip-path:polygon(50% 0,100% 100%,0 100%);background:linear-gradient(90deg,rgba(214,192,156,0) 0%,rgba(214,192,156,.18) 15%,rgba(214,192,156,.55) 28%,#d6c09c 38%,#ddc8a6 50%,#d6c09c 62%,rgba(214,192,156,.55) 72%,rgba(214,192,156,.18) 85%,rgba(214,192,156,0) 100%);-webkit-mask-image:linear-gradient(180deg,transparent 0%,rgba(0,0,0,.08) 12%,rgba(0,0,0,.22) 22%,rgba(0,0,0,.65) 29%,#000 36%,#000 75%,rgba(0,0,0,.85) 100%);mask-image:linear-gradient(180deg,transparent 0%,rgba(0,0,0,.08) 12%,rgba(0,0,0,.22) 22%,rgba(0,0,0,.65) 29%,#000 36%,#000 75%,rgba(0,0,0,.85) 100%)}
+.soglia .floor{position:absolute;left:0;right:0;bottom:0;height:var(--floor);background:#171615}
+.soglia .hfloor{position:absolute;left:50%;bottom:0;height:var(--floor);width:calc(var(--W)*4.6);transform:translateX(-50%);pointer-events:none;background:radial-gradient(ellipse 48% 100% at 50% 0%,rgba(210,186,148,.42),rgba(196,170,130,.18) 40%,rgba(180,156,120,.05) 75%,rgba(180,156,120,0) 100%)}
+.soglia .contact{display:none;position:absolute;left:50%;bottom:calc(var(--floor) - 3px);width:calc(var(--W)*1.04);height:7px;transform:translateX(-50%);pointer-events:none;background:radial-gradient(ellipse 50% 50% at 50% 50%,rgba(10,9,8,.55),rgba(10,9,8,0));filter:blur(1.5px)}
+/* the door sits a little back inside the wall: side reveals catch the downlight at a grazing angle, the soffit stays in shade and casts a soft band onto the top of the door */
+.soglia .recess{position:absolute;left:50%;bottom:var(--floor);width:calc(var(--W) + var(--r)*2);height:calc(var(--H) + var(--r));transform:translateX(-50%);pointer-events:none}
+.soglia .recess i{position:absolute;inset:0}
+/* il percorso as a pinned horizontal track: each step is a card that turns in, settles flat, then turns away (same motion as the Hyperiux cards-rotate slider, rebuilt without React) */
+.gstage{position:absolute;top:0;left:0;right:0;height:calc(var(--vh,1vh)*100);overflow:hidden;perspective:1000px;background:radial-gradient(ellipse at 50% 50%,#fffaf0,#fff0d2 55%,#ffe2ab)}
+.gstage.pin{position:fixed}
+.gstage.end{top:auto;bottom:0}
+.gn{font-family:var(--mono);font-size:.75rem;text-transform:uppercase;color:#d9b262}
+.gend{background:#0c0a08;color:#f4f1eb;padding:10vh var(--gutter) 12vh;display:flex;justify-content:space-between;align-items:center;gap:1.5rem 2rem;flex-wrap:wrap;border-top:1px solid rgba(244,241,235,.1)}
+.gend .serif{font-size:clamp(1.6rem,2.6vw,2.5rem)}.gend em{font-style:normal;font-weight:300;color:#d9b262}
+.gend .go{display:flex;align-items:center;gap:1.6rem 2rem;flex-wrap:wrap}
+.gend .where{font:400 .75rem/1.4 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:rgba(244,241,235,.6)}
+/* the eight cards: each one turns on its right edge as you scroll */
+/* then the gold slowly drains to dark as the steps go by */
+.gdark{position:absolute;inset:0;background:radial-gradient(ellipse at 50% 50%,#1c1208,#0e0905 70%);opacity:0;pointer-events:none}
+/* big step numbers sit behind each card and move with it; every card throws a shadow */
+/* each card gets its own perspective: a shared 3D context hid the numbers behind the stage */
+/* downlight off: the room is dark and the only light is what escapes through the gap */
+.soglia .halo,.soglia .hfloor,.soglia .cone,.soglia .spot{display:none}
+.soglia .wall{position:absolute;inset:0 0 var(--floor) 0;background:radial-gradient(ellipse calc(var(--W)*1.6) calc(var(--H)*.9) at calc(50% - var(--W)*.62) calc(100% - var(--H)*.45),rgba(255,190,115,calc(var(--g,.8)*.14)),rgba(255,190,115,0) 72%),#1b1a19}
+.soglia .door .shade{position:absolute;inset:0;opacity:0;background:linear-gradient(90deg,rgba(14,11,8,.62),rgba(14,11,8,.86) 45%,rgba(14,11,8,.9)),linear-gradient(180deg,rgba(14,11,8,0),rgba(14,11,8,.12))}
+.soglia .door{position:absolute;inset:0;transform-origin:100% 50%;transform-style:preserve-3d;background:linear-gradient(180deg,#fbeedb,#f6e7cf 60%,#f0dfc4);box-shadow:0 0 0 1.5px #34302b}
+.soglia .rv-t{clip-path:polygon(0 0,100% 0,calc(100% - var(--r)) var(--r),var(--r) var(--r));background:#151311}
+.soglia .rv-r{clip-path:polygon(100% 0,calc(100% - var(--r)) var(--r),calc(100% - var(--r)) 100%,100% 100%);background:#191715}
+.soglia .rv-l{clip-path:polygon(0 0,var(--r) var(--r),var(--r) 100%,0 100%);background:linear-gradient(90deg,rgba(255,205,135,calc(var(--g,.8)*.3)),rgba(255,205,135,calc(var(--g,.8)*.62))),#1d1a17}
+/* the only light comes from the gap on the latch side: the handle throws a soft dark shadow away from it, and as the door opens only the edge facing the light brightens; the rest of the door stays in shadow */
+.soglia .door .lit{position:absolute;inset:0;opacity:0;mix-blend-mode:normal;background:linear-gradient(90deg,rgba(255,214,150,.6) 0%,rgba(255,206,140,.22) 14%,rgba(255,200,130,.06) 32%,rgba(255,200,130,0) 48%)}
+/* the door has a real thickness: the latch edge is a face turned 90° into the wall, lit by the light behind it; it shows more as the door swings open */
+.soglia .door .thick{position:absolute;left:0;top:0;bottom:0;width:calc(var(--W)*.045);transform-origin:0 50%;transform:rotateY(90deg);background:linear-gradient(90deg,#f8deac,#d6a75c 45%,#8a6430);opacity:calc(.5 + var(--g,.8)*.5);box-shadow:inset 0 0 0 1px rgba(60,40,15,.35)}
+/* the handle is a real object: a lever standing off the door on a short neck, so it turns with the door in 3D; its soft shadow lies on the door surface, thrown to the right by the light from the gap */
+.soglia .rose,.soglia .key{opacity:1;filter:none}
+.soglia .rose{position:absolute;left:6%;top:52%;width:calc(var(--W)*.075);aspect-ratio:1;border-radius:2px;box-shadow:0 1px 2px rgba(0,0,0,.35);transform-style:preserve-3d;background:linear-gradient(135deg,#9a968f,#55524d 55%,#6e6a64)}
+.soglia .key{position:absolute;left:6%;top:calc(52% + var(--W)*.12);width:calc(var(--W)*.075);aspect-ratio:1;border-radius:2px;background:linear-gradient(135deg,#8e8a84,#4d4a46 55%,#64605a)}
+.soglia .lever{position:absolute;left:35%;top:30%;width:calc(var(--W)*.17);height:calc(var(--W)*.034);border-radius:1px;transform-origin:calc(var(--W)*.0) 50%;transform-style:preserve-3d;background:linear-gradient(180deg,#c9c5be,#77736c 55%,#8f8b84);box-shadow:none}
+.soglia .neck{position:absolute;left:50%;top:50%;width:calc(var(--W)*.032);height:calc(var(--W)*.026);margin-top:calc(var(--W)*-.013);transform-origin:0 50%;transform:rotateY(-90deg);background:linear-gradient(180deg,#8d8983,#3f3c38)}
+.soglia .lv-under{position:absolute;left:0;right:0;bottom:0;height:calc(var(--W)*.02);transform-origin:50% 100%;transform:rotateX(90deg);background:#2e2b28}
+.soglia .hshadow{position:absolute;inset:0;pointer-events:none;filter:blur(calc(var(--W)*.012))}
+.soglia .hshadow i{position:absolute;background:rgba(0,0,0,.62);border-radius:2px}
+.soglia .hs-rose{left:calc(6% + var(--W)*.022);top:calc(52% + var(--W)*.008);width:calc(var(--W)*.075);height:calc(var(--W)*.075)}
+.soglia .hs-lever{left:calc(6% + var(--W)*.075*.35 + var(--W)*.05);top:calc(52% + var(--W)*.075*.3 + var(--W)*.016);width:calc(var(--W)*.17);height:calc(var(--W)*.034);transform-origin:0 50%}
+.soglia .hs-key{left:calc(6% + var(--W)*.02);top:calc(52% + var(--W)*.12 + var(--W)*.008);width:calc(var(--W)*.075);height:calc(var(--W)*.075)}
+/* logo section: static olos + symbol + hera wordmark */
+.gend.sculpt{position:relative;display:grid;align-items:center;min-height:calc(var(--vh,1vh)*100);padding-block:12vh;border-top:0;overflow:hidden}
+.sc-stage{position:relative;height:min(78vh,820px);min-width:0;touch-action:pan-y}
+@media (max-width:820px){.gend.sculpt{grid-template-columns:1fr;padding-block:10vh 12vh}.sc-stage{order:-1;height:56vh}}
+/* the wordmark rebuilt: plain light lowercase "olos" and "hera" either side, the liquid symbol in the middle */
+.sc-word{display:flex;align-items:center;justify-content:center;margin:0;font-family:var(--body);font-weight:300;line-height:1;letter-spacing:-.045em;color:#efe8dc;max-width:100%}
+.sc-w{display:block;padding-bottom:.08em}
+.sc-copy{display:grid;align-content:center;min-width:0;position:relative;z-index:2;justify-items:center;margin-top:clamp(2.5rem,7vh,4.5rem);gap:1.4rem}
+.gend.sculpt .go{display:flex;flex-direction:column;gap:1.1rem;align-items:center}
+@media (max-width:820px){.sc-word{font-size:15.5vw}.sc-word .sc-stage{order:0;height:1.95em}}
+/* the original logo lettering, cut from the logo itself and filled with one flat cream: same shapes, no gradient */
+.sc-word{--lh:min(24vw,270px);font-size:var(--lh);gap:0}
+.sc-word .sc-w{display:block;height:var(--lh);padding:0;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;-webkit-mask-size:100% 100%;mask-size:100% 100%;background:#26223a}
+.sc-word .sc-olos{width:calc(var(--lh)*387/287);-webkit-mask-image:url(logoc-olos.png);mask-image:url(logoc-olos.png)}
+.sc-word .sc-hera{width:calc(var(--lh)*436/287);-webkit-mask-image:url(logoc-hera.png);mask-image:url(logoc-hera.png)}
+.sc-word .sc-stage{position:relative;flex:0 0 auto;z-index:1;width:calc(var(--lh)*257/287);height:var(--lh);margin:0;display:flex;align-items:center;justify-content:center}
+@media (max-width:820px){.sc-word{--lh:calc((100vw - 2*max(16px,env(safe-area-inset-left,0px)))/3.78);font-size:var(--lh)}.sc-word .sc-stage{height:var(--lh)}}
+/* light lavender ground for the wordmark; the dark of the path fades into it across the top padding */
+.gend.sculpt{grid-template-columns:1fr;justify-items:center;text-align:center;align-content:center;gap:0;background:#eeebe5;color:#1f1c2b}
+.gend.sculpt .serif{line-height:1;margin:0;text-wrap:balance;max-width:20ch;font-size:clamp(1.5rem,2.6vw,2.6rem);color:#1f1c2b}.gend.sculpt .serif em{color:var(--oro-lg)}
+.gend.sculpt .where{color:rgba(31,28,43,.74)}
+/* Ollie's bubble as frosted (matte) glass */
+.bubble{background:rgba(255,255,255,.9);border:1px solid rgba(255,255,255,.6);box-shadow:0 18px 40px rgba(60,30,10,.12),inset 0 1px 0 rgba(255,255,255,.7);right:0;left:auto;top:auto;bottom:calc(100% + 12px);border-radius:18px 18px 4px 18px;transform-origin:85% 100%}
+@supports ((backdrop-filter:blur(1px)) or (-webkit-backdrop-filter:blur(1px))){
+  .bubble{background:linear-gradient(160deg,rgba(255,255,255,.62),rgba(255,255,255,.4));-webkit-backdrop-filter:blur(22px) saturate(1.5);backdrop-filter:blur(22px) saturate(1.5)}
+  .bubble::after{border:0;width:12px;height:14px;right:-12px;top:22px;background:rgba(255,255,255,.55);-webkit-backdrop-filter:blur(22px) saturate(1.5);backdrop-filter:blur(22px) saturate(1.5);clip-path:polygon(0 0,100% 0,0 100%)}
+  @media (max-width:640px){.bubble::after{right:22px;top:100%;width:14px;height:12px;clip-path:polygon(0 0,100% 0,100% 100%)}}
+}
+/* showroom location card (after the expand-map component, rebuilt without React): tilts with the cursor, opens into a small drawn map with the pin */
+/* bigger, readable step numbers: most of the figure stands above the card, the fade starts later */
+/* no gate: the door opens as you scroll through it (or with a tap / hold / the Entra button); nothing below is ever hidden */
+.soglia-run>.soglia{position:sticky;top:0}
+.soglia .ui{position:absolute;left:50%;top:calc(100% - var(--floor) - var(--H)*.3);transform:translate(-50%,0);display:flex;flex-direction:column;align-items:center;z-index:3;transition:opacity .5s ease;pointer-events:none;gap:.9rem}
+.soglia .holdhint .cue{position:relative;width:1px;height:1.1em;background:rgba(248,236,212,.3);overflow:hidden}
+.soglia .holdhint .cue::after{content:"";position:absolute;left:0;top:-40%;width:1px;height:40%;background:#e8c983;animation:cueDrop 1.6s cubic-bezier(.5,0,.5,1) infinite}
+@keyframes cueDrop{to{top:110%}}
+.soglia .entra{pointer-events:auto;display:inline-flex;align-items:center;gap:.6em;padding:.85em 1.6em;border-radius:999px;background:#d9b262;color:#1d1b18;font:500 .75rem/1 var(--mono);letter-spacing:.2em;text-transform:uppercase;text-decoration:none;box-shadow:0 10px 30px -10px rgba(217,178,98,.55);transition:transform .25s ease,background .25s ease}
+.soglia .entra:hover{transform:translateY(-2px);background:#e8c983}
+.soglia .entra:focus-visible{outline:2px solid #e8c983;outline-offset:3px}
+.soglia .holdalt{font:400 .75rem/1 var(--mono);letter-spacing:.16em;text-transform:uppercase;color:rgba(239,232,220,.5)}
+.soglia .ui.scrolled .holdhint{opacity:0;transition:opacity .5s ease}
+@media (prefers-reduced-motion:reduce){.soglia .holdhint .cue::after{animation:none;top:30%}}
+/* rendering fixes: no blend modes over the sticky stage (they tore into rectangles on some GPUs), no top thickness face (it showed as a light bar) */
+.soglia .beam,.soglia .wedge,.soglia .motes{position:absolute;inset:0;pointer-events:none;mix-blend-mode:normal}
+.soglia .door .thick.top{left:0;right:0;top:0;bottom:auto;width:auto;height:calc(var(--W)*.045);transform-origin:50% 0;transform:rotateX(-90deg);background:linear-gradient(90deg,#d9b57a,#6b5234 30%,#2a231b);opacity:.9;display:none}
+.soglia .stage,.soglia .beam,.soglia .wedge{will-change:auto}
+/* first screen: the promise and the booking button straight away */
+.scrub{position:relative;height:calc(var(--vh,1vh)*560)}
+.lead{position:absolute;left:var(--gutter);right:var(--gutter);bottom:clamp(2.4rem,9vh,5.5rem);display:grid;gap:1.1rem;justify-items:start;max-width:40rem;z-index:3;transition:opacity .5s ease,transform .5s ease}
+.lead.off{opacity:0;transform:translateY(-12px);pointer-events:none}
+.lead .label{color:#d9b262}
+.lead h1{margin:0;color:var(--ink);font-size:clamp(2.2rem,5.4vw,5.2rem);line-height:.98;max-width:13ch;text-wrap:balance}
+.lead h1 em{color:#d9b262}
+.lead-sub{margin:0;max-width:40ch;color:rgba(244,241,235,.86);font-size:clamp(1rem,1.2vw,1.2rem)}
+.lead-go{display:flex;align-items:center;gap:1rem 1.6rem;flex-wrap:wrap;margin-top:.4rem}
+.lead .btn{color:#1d1b18}
+.lead .ghost{font:400 .75rem/1 var(--mono);letter-spacing:.18em;text-transform:uppercase;color:rgba(244,241,235,.85);text-decoration:none;border-bottom:1px solid rgba(244,241,235,.35);padding-bottom:.35em}
+.lead .ghost:hover{color:#e8c983;border-color:#e8c983}
+html.phone .lead{bottom:calc(env(safe-area-inset-bottom,0px) + 4.5vh)}
+html.phone .lead h1{font-size:9.6vw}
+/* intro, faster */
+.intro.go .sweep{animation-duration:1.7s}
+/* phone: a booking button that stays at hand */
+.fab{position:fixed;left:max(16px,env(safe-area-inset-left,0px));bottom:calc(env(safe-area-inset-bottom,0px) + 16px);z-index:45;display:none;align-items:center;gap:.6em;padding:1em 1.5em;border-radius:999px;background:#d9b262;color:#1d1b18;font:500 .75rem/1 var(--mono);letter-spacing:.18em;text-transform:uppercase;text-decoration:none;box-shadow:0 12px 30px -10px rgba(0,0,0,.45);opacity:0;transform:translateY(16px);transition:opacity .35s ease,transform .35s ease;pointer-events:none}
+.fab.on{opacity:1;transform:none;pointer-events:auto}
+@media (max-width:760px){.fab{display:inline-flex}}
+/* the path is behind the door: it overlaps the door's runway by one screen and is seen only through the opening */
+.soglia-run{position:relative;height:calc(var(--vh,1vh)*165);z-index:2;margin-top:calc(var(--vh,1vh)*-45)}
+/* the door rises into the last of the dusk: no empty dark screen between the video and the door */
+.giro{overflow-x:clip;color:#1d1b18;position:relative;z-index:3;margin-top:calc(var(--vh,1vh)*-100);background:transparent;pointer-events:none}
+.giro .gstage{pointer-events:auto}
+.giro .gstage.portal{pointer-events:none}
+.sflash{position:fixed;inset:0;z-index:59;pointer-events:none;opacity:0;background:radial-gradient(ellipse at 50% 50%,#fffaf0,#fff0d2 55%,#ffe2ab);display:none}
+.gin{position:absolute;inset:0}
+.gglow{position:absolute;inset:0;pointer-events:none;opacity:0;background:radial-gradient(ellipse 34% 46% at var(--gx,50%) var(--gy,55%),rgba(255,248,232,.95),rgba(255,232,190,.55) 40%,rgba(255,214,150,.18) 70%,rgba(255,214,150,0) 100%)}
+/* the wordmark, still: flat logo lettering with the coloured symbol in the middle */
+.sc-sym{display:block;width:100%;height:100%;object-fit:contain}
+/* Ollie now lives beside the booking form: his bubble sits above him, clear of the address and the map */
+.bubble::after{right:22px;top:100%;border:8px solid transparent;border-top-color:#fff;border-right-color:#fff}
+@supports ((backdrop-filter:blur(1px)) or (-webkit-backdrop-filter:blur(1px))){.bubble::after{border:0;right:22px;top:100%;width:14px;height:12px;clip-path:polygon(0 0,100% 0,100% 100%)}}
+/* Ollie quiet: no blinking buttons anywhere; one soft glow on the form button after his last line */
+@keyframes glowOnce{0%{box-shadow:0 0 0 0 rgba(217,178,98,0)}40%{box-shadow:0 0 0 6px rgba(217,178,98,.18),0 0 24px 4px rgba(217,178,98,.35)}100%{box-shadow:0 0 0 0 rgba(217,178,98,0)}}
+#bookForm .btn.glow-once{animation:glowOnce 2.4s ease-out 1}
+@media (prefers-reduced-motion:reduce){#bookForm .btn.glow-once{animation:none}}
+.bubble .tolink{display:inline-block;margin-top:.7rem;font:400 .75rem/1 var(--mono);letter-spacing:.16em;text-transform:uppercase;color:#ad4814;text-decoration:none;border-bottom:1px solid rgba(173,72,20,.35);padding-bottom:.3em}
+/* readability: labels never under 12px, tighter tracking at that size, gold text dark enough on light grounds */
+.soglia .holdhint{letter-spacing:.18em}
+.btn,.soglia .entra,.fab{font-size:.78rem}
+.gn{letter-spacing:.12em}
+.bubble .x{color:rgba(29,27,24,.62)}
+/* Ollie focus: the page blurs and dims behind him while he talks */
+.ofocus{position:fixed;inset:0;z-index:34;pointer-events:none;opacity:0;background:rgba(241,238,232,.28);-webkit-backdrop-filter:blur(10px) saturate(.9);backdrop-filter:blur(10px) saturate(.9);transition:opacity .7s ease}
+body.ollie-focus .ofocus{opacity:1;pointer-events:auto}
+@supports not ((backdrop-filter:blur(1px)) or (-webkit-backdrop-filter:blur(1px))){.ofocus{background:rgba(241,238,232,.75)}}
+/* Ollie grows by scale, not width: resizing the WebGL canvas every frame made it flicker */
+.ollie,.ollie.big{width:clamp(170px,24vw,320px)}
+.ollie .stage3d,.ollie .fallback2d{transform-origin:100% 100%;scale:var(--os);transition:scale 1.2s cubic-bezier(.2,.8,.2,1)}
+.ollie.big .stage3d,.ollie.big .fallback2d{scale:1}
+.ollie:not(.big) .peek{bottom:calc(100% * var(--os) - 2%);right:calc(30% * var(--os))}
+@media (max-width:640px){.ollie{--os:.8}.ollie,.ollie.big{width:32vw}}
+/* FAQ: a rounded card over a warm, blurred frame of the film; the label, title and button on the left, the questions on the right (after the Runway research block) */
+.faq{padding:12vh var(--gutter);border-top:1px solid var(--line)}
+.faq-card{position:relative;max-width:1280px;margin:0 auto;border-radius:10px;overflow:hidden;color:#fff;isolation:isolate}
+.faq-bg{position:absolute;inset:0;z-index:-1;background:url(faq-bg.webp) center/cover}
+.faq-bg::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(28,20,12,.42),rgba(28,20,12,.58))}
+.faq-in{width:87.5%;margin:0 auto;padding:clamp(4.5rem,10vw,9rem) 0;display:flex;justify-content:space-between;gap:2.5rem 3rem}
+.faq-side{flex:0 0 37.5%}
+.faq-side .label{color:#fff;letter-spacing:.24em;margin:0 0 1.5rem}
+.faq-side h2{font-size:clamp(2rem,3.4vw,3.3rem);margin:0 0 1.1rem;color:#fff}
+.faq-side h2 em{color:#f0d79c}
+.faq-lead{margin:0;max-width:34ch;font-size:clamp(1rem,1.25vw,1.15rem);line-height:1.45;color:rgba(255,255,255,.9)}
+.faq-cta{display:inline-flex;align-items:center;gap:.5em;margin-top:2rem;padding:.6rem .9rem;border-radius:6px;font:500 .8rem/1 var(--mono);letter-spacing:.12em;text-transform:uppercase;text-decoration:none;color:#fff;background:rgba(247,247,247,.06);outline:1px solid rgba(255,255,255,.75);outline-offset:-1px;backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);transition:background .15s}
+.faq-cta:hover{background:rgba(247,247,247,.18)}
+.faq-cta:focus-visible{outline:2px solid #fff;outline-offset:3px}
+.faq-list{flex:0 1 50%;border-top:1px solid rgba(255,255,255,.7);border-bottom:1px solid rgba(255,255,255,.7)}
+.faq details+details{border-top:1px solid rgba(255,255,255,.7)}
+.faq summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:flex-start;gap:1.2rem;padding:1.45rem 0;font:400 clamp(1.15rem,1.45vw,1.3rem)/1.2 var(--body);color:rgba(255,255,255,.9);transition:color .2s linear}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"";flex:0 0 1.15rem;height:1.15rem;margin-top:.05rem;background:currentColor;-webkit-mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M7 7h10v10'/%3E%3Cpath d='M7 17 17 7'/%3E%3C/svg%3E") center/contain no-repeat;mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M7 7h10v10'/%3E%3Cpath d='M7 17 17 7'/%3E%3C/svg%3E") center/contain no-repeat;transition:transform .3s ease}
+.faq details[open] summary::after{transform:rotate(90deg)}
+.faq summary:hover,.faq details[open] summary{color:#fff}
+.faq summary:focus-visible{outline:2px solid #fff;outline-offset:4px;border-radius:2px}
+.faq details p{margin:-.35rem 2.2rem 1.5rem 0;font-size:.95rem;line-height:1.5;color:rgba(255,255,255,.8)}
+@media (max-width:820px){.faq{padding:8vh 16px}.faq-in{flex-direction:column;width:auto;padding:3.5rem 1.4rem}.faq-side,.faq-list{flex:none}}
+/* language switch beside Prenota */
+.nav a.lang{margin-left:auto;margin-right:.9rem;font:500 .75rem/1 var(--mono);letter-spacing:.14em;text-decoration:none;color:#efeff8;opacity:.85;padding:.7em .3em}
+.nav.onlight a.lang{color:var(--fg)}
+.nav a.lang:hover{opacity:1;color:var(--oro)}
+/* cinematic footer (after the 21st.dev Motion Footer): the page lifts like a curtain and the footer waits underneath, fixed */
+#prenota{z-index:1;background:var(--bg);border-radius:0 0 24px 24px;box-shadow:0 30px 60px -20px rgba(20,16,10,.35)}
+.cine{position:relative;height:calc(var(--vh,1vh)*100);margin-top:-24px;clip-path:polygon(0 0,100% 0,100% 100%,0 100%)}
+.cf{--fg:#f3efe8;--fg-m:rgba(243,239,232,.56);position:fixed;left:0;bottom:0;width:100%;height:calc(var(--vh,1vh)*100);display:flex;flex-direction:column;justify-content:space-between;overflow:hidden;background:#0f0e0d;color:var(--fg);font-family:var(--body);-webkit-font-smoothing:antialiased;
+  --pill-bg-1:rgba(243,239,232,.03);--pill-bg-2:rgba(243,239,232,.01);--pill-shadow:rgba(15,14,13,.5);--pill-highlight:rgba(243,239,232,.1);--pill-inset:rgba(15,14,13,.8);--pill-border:rgba(243,239,232,.08)}
+.cf-aurora{position:absolute;left:50%;top:50%;width:80vw;height:60vh;border-radius:50%;filter:blur(80px);pointer-events:none;z-index:0;background:radial-gradient(circle at 50% 50%,rgba(217,178,98,.2) 0%,rgba(107,63,160,.2) 40%,transparent 70%);animation:cfBreathe 8s ease-in-out infinite alternate;animation-play-state:paused}
+.cf.run .cf-aurora,.cf.run .cf-mqt,.cf.run .cf-beat{animation-play-state:running}
+@keyframes cfBreathe{0%{transform:translate(-50%,-50%) scale(1);opacity:.6}100%{transform:translate(-50%,-50%) scale(1.1);opacity:1}}
+.cf-grid{position:absolute;inset:0;z-index:0;pointer-events:none;background-size:60px 60px;background-image:linear-gradient(to right,rgba(243,239,232,.03) 1px,transparent 1px),linear-gradient(to bottom,rgba(243,239,232,.03) 1px,transparent 1px);-webkit-mask-image:linear-gradient(to bottom,transparent,#000 30%,#000 70%,transparent);mask-image:linear-gradient(to bottom,transparent,#000 30%,#000 70%,transparent)}
+/* the giant wordmark: half below the bottom edge, ghost fill fading downwards */
+.cf-giant{--h:min(24vw,calc(var(--vh,1vh)*40));position:absolute;left:50%;bottom:calc(var(--h)*-0.5);display:flex;align-items:center;z-index:0;pointer-events:none;user-select:none;transform:translate(-50%,10vh) scale(.8);opacity:0;transform-origin:50% 100%}
+.cf-giant i{display:block;height:var(--h);background:linear-gradient(180deg,rgba(243,239,232,.3) 0%,rgba(243,239,232,.14) 30%,rgba(243,239,232,.04) 50%,transparent 60%);-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;-webkit-mask-size:100% 100%;mask-size:100% 100%}
+.cf-giant .cf-olos{width:calc(var(--h)*387/287);-webkit-mask-image:url(logoc-olos.png);mask-image:url(logoc-olos.png)}
+.cf-giant .cf-sym{width:calc(var(--h)*257/287);-webkit-mask-image:url(logoc-sym.png);mask-image:url(logoc-sym.png)}
+.cf-giant .cf-hera{width:calc(var(--h)*436/287);-webkit-mask-image:url(logoc-hera.png);mask-image:url(logoc-hera.png)}
+/* marquee: a glass band, slightly tilted */
+.cf-mq{position:absolute;top:6rem;left:0;width:100%;overflow:hidden;z-index:2;padding:1rem 0;border-top:1px solid rgba(243,239,232,.08);border-bottom:1px solid rgba(243,239,232,.08);background:rgba(15,14,13,.6);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);transform:rotate(-2deg) scale(1.1);box-shadow:0 25px 50px -12px rgba(0,0,0,.25)}
+.cf-mqt{display:flex;width:max-content;animation:cfMarq 40s linear infinite;animation-play-state:paused;font:600 .8rem/1 var(--body);letter-spacing:.3em;text-transform:uppercase;color:var(--fg-m)}
+.cf-mqi{display:flex;align-items:center;gap:3rem;padding:0 1.5rem}
+.cf-mqi .cf-st{color:rgba(217,178,98,.7)}.cf-mqi .cf-st.b{color:rgba(160,120,210,.7)}
+@keyframes cfMarq{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+/* centre: big metallic title and glass pills */
+.cf-center{position:relative;z-index:3;flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;width:100%;max-width:64rem;margin:8rem auto 0;padding:0 1.5rem}
+.cf-h{margin:0 0 3rem;text-align:center;font:500 clamp(2.8rem,7.6vw,6.8rem)/.95 var(--display);letter-spacing:.005em;text-transform:uppercase;background:linear-gradient(180deg,#f3efe8 0%,rgba(243,239,232,.4) 100%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:transparent;filter:drop-shadow(0 0 20px rgba(243,239,232,.15));opacity:0;transform:translateY(50px)}
+.cf-acts{display:flex;flex-direction:column;align-items:center;gap:1.5rem;width:100%;opacity:0;transform:translateY(50px)}
+.cf-row{display:flex;flex-wrap:wrap;justify-content:center;gap:1rem;width:100%}
+.cf-row.cf-small{gap:.75rem 1.5rem;margin-top:.5rem}
+.cf-pill{background:linear-gradient(145deg,var(--pill-bg-1) 0%,var(--pill-bg-2) 100%);box-shadow:0 10px 30px -10px var(--pill-shadow),inset 0 1px 1px var(--pill-highlight),inset 0 -1px 2px var(--pill-inset);border:1px solid var(--pill-border);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border-radius:999px;color:var(--fg);text-decoration:none;transition:background .4s cubic-bezier(.16,1,.3,1),border-color .4s cubic-bezier(.16,1,.3,1),box-shadow .4s cubic-bezier(.16,1,.3,1),color .4s cubic-bezier(.16,1,.3,1)}
+a.cf-pill:hover{background:linear-gradient(145deg,rgba(243,239,232,.08) 0%,rgba(243,239,232,.02) 100%);border-color:rgba(243,239,232,.2);box-shadow:0 20px 40px -10px rgba(15,14,13,.7),inset 0 1px 1px rgba(243,239,232,.2);color:var(--fg)}
+a.cf-pill:focus-visible{outline:2px solid #d9b262;outline-offset:3px}
+.cf-mag{display:inline-flex;align-items:center;will-change:transform;transform-style:preserve-3d}
+.cf-big{gap:.75rem;padding:1.25rem 2.5rem;font-weight:600;font-size:1rem}
+.cf-big svg{width:1.5rem;height:1.5rem;color:var(--fg-m);transition:color .2s}
+.cf-big:hover svg{color:#d9b262}
+.cf-sm{padding:.75rem 1.5rem;font-weight:500;font-size:.875rem;color:var(--fg-m)}
+/* bottom bar */
+.cf-bar{position:relative;z-index:4;width:100%;padding:0 3rem 2rem;display:flex;align-items:center;justify-content:space-between;gap:1.5rem}
+.cf-copy{font-size:.75rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--fg-m)}
+.cf-credit{display:flex;align-items:center;gap:.5rem;padding:.75rem 1.5rem;cursor:default}
+.cf-credit span{font-size:.75rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--fg-m);white-space:nowrap}
+.cf-credit b{font-size:.85rem;font-weight:600;color:var(--fg);margin-left:.25rem}
+.cf-beat{display:inline-block;color:#d9b262!important;font-size:1rem!important;letter-spacing:0!important;animation:cfBeat 2s cubic-bezier(.25,1,.5,1) infinite;animation-play-state:paused}
+@keyframes cfBeat{0%,100%{transform:scale(1);filter:drop-shadow(0 0 5px rgba(217,178,98,.5))}15%,45%{transform:scale(1.2);filter:drop-shadow(0 0 10px rgba(217,178,98,.8))}30%{transform:scale(1)}}
+.cf-up{width:3rem;height:3rem;display:grid;place-items:center;color:var(--fg-m)}
+.cf-up svg{width:1.25rem;height:1.25rem;transition:transform .3s}
+.cf-up:hover svg{transform:translateY(-6px)}
+@media (max-width:767px){
+  #prenota{border-radius:0 0 20px 20px}
+  .cf-mq{top:4.6rem;padding:.8rem 0}.cf-mqt{font-size:.68rem}
+  .cf-center{margin-top:6.5rem}
+  .cf-h{margin-bottom:2rem}
+  .cf-big{padding:1rem 1.6rem;font-size:.9rem}
+  .cf-sm{padding:.6rem 1.1rem;font-size:.78rem}
+  .cf-bar{flex-wrap:wrap;gap:.8rem 1rem;padding:0 1.25rem calc(env(safe-area-inset-bottom,0px) + 1.1rem)}
+  .cf-credit{order:1;flex:0 0 auto;margin:0 auto;padding:.55rem 1rem;gap:.4rem}.cf-credit span{font-size:.6rem;letter-spacing:.08em}.cf-credit b{font-size:.7rem;margin-left:0;white-space:nowrap}
+  .cf-bar::after{content:"";order:2;flex-basis:100%;height:0}
+  .cf-copy{order:3;font-size:.65rem}
+  .cf-up{order:4;width:2.6rem;height:2.6rem}
+  .cf-giant{--h:28vw}
+}
+@media (prefers-reduced-motion:reduce){.cf-aurora,.cf-mqt,.cf-beat{animation:none}.cf-giant{transform:translate(-50%,0);opacity:1}.cf-h,.cf-acts{opacity:1;transform:none}}
+/* spotlight on every button (after the shadcn Spotlight): a soft light follows the pointer across the button and along its 1px edge; touch screens skip it, keyboard focus lights it */
+.olo-sl{isolation:isolate}
+.olo-sl>.olo-sl-l,.olo-sl>.olo-sl-r{all:unset;display:block!important;position:absolute!important;inset:0!important;width:auto!important;height:auto!important;margin:0!important;transform:none!important;animation:none!important;z-index:-1!important;border-radius:inherit;pointer-events:none;opacity:0;transition:opacity .3s}
+.olo-sl:hover>.olo-sl-l,.olo-sl:hover>.olo-sl-r,.olo-sl:focus-visible>.olo-sl-l,.olo-sl:focus-visible>.olo-sl-r,.olo-sl:focus-within>.olo-sl-l,.olo-sl:focus-within>.olo-sl-r{opacity:1}
+.olo-sl>.olo-sl-l{background:radial-gradient(var(--spot-size,320px) circle at var(--spotlight-x,50%) var(--spotlight-y,50%),color-mix(in oklab,var(--spot,currentColor) 10%,transparent),transparent 70%)}
+.olo-sl>.olo-sl-r{inset:-1px!important;padding:1px;box-sizing:border-box;background:radial-gradient(var(--spot-size,320px) circle at var(--spotlight-x,50%) var(--spotlight-y,50%),color-mix(in oklab,var(--spot,currentColor) 45%,transparent),transparent 60%);-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);mask-composite:exclude}
+.btn.olo-sl,.soglia .entra.olo-sl,.fab.olo-sl{--spot:#fff}
+.btn.olo-sl>.olo-sl-l,.soglia .entra.olo-sl>.olo-sl-l,.fab.olo-sl>.olo-sl-l{background:radial-gradient(var(--spot-size,320px) circle at var(--spotlight-x,50%) var(--spotlight-y,50%),rgba(255,255,255,.32),transparent 70%)}
+@media (prefers-reduced-motion:reduce){.olo-sl>.olo-sl-l,.olo-sl>.olo-sl-r{transition:none}}
+/* where we are: a full-screen dark map of Rome; only the lines of the main roads, the Tiber and the ring road, drawn from real coordinates; the logo symbol marks Olosphera */
+.dove{position:relative;height:calc(var(--vh,1vh)*100);min-height:560px;overflow:hidden;background:#0b0f2c;color:#efeff8}
+.dv-map{position:absolute;inset:0}
+.dv-panel{position:absolute;left:var(--gutter);bottom:calc(var(--vh,1vh)*9);z-index:2;width:min(400px,calc(100% - 2*var(--gutter)));padding:2rem 2rem 2.1rem;border-radius:22px;background:rgba(14,19,56,.62);border:1px solid rgba(239,239,248,.1);box-shadow:0 30px 70px -30px rgba(0,0,0,.7);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);color:#efeff8}
+.dv-panel .label{margin:0 0 1rem;color:#d9b262}
+.dv-panel h2{margin:0 0 1rem;font-size:clamp(1.9rem,2.8vw,2.6rem);line-height:1.05;color:#efeff8}
+.dv-panel h2 em{color:#d9b262}
+.dv-addr{margin:0 0 1.2rem;font-size:1rem;line-height:1.5;color:rgba(239,239,248,.9)}
+.dv-facts{list-style:none;margin:0 0 .4rem;padding:0;display:grid;gap:.45rem}
+.dv-facts li{display:flex;align-items:baseline;gap:.6rem;font-size:.95rem;color:rgba(239,239,248,.72)}
+.dv-facts b{min-width:3.6rem;font:600 .8rem/1 var(--mono);letter-spacing:.08em;color:#d9b262}
+.dv-note{margin:0 0 1.4rem;font-size:.75rem;color:rgba(239,239,248,.55)}
+@media (max-width:760px){
+  .dove{height:auto;min-height:0;display:flex;flex-direction:column}
+  .dv-map{position:relative;inset:auto;height:calc(var(--vh,1vh)*62)}
+  .dv-panel{position:relative;left:auto;bottom:auto;width:auto;margin:-2.5rem 16px 2.5rem;padding:1.6rem 1.4rem 1.7rem}
+}
+/* il percorso as a hover slider (after the 21st.dev Animated Slideshow): the steps on the left roll their letters up; the video of the active step wipes in from the top */
+.hs{position:absolute;inset:0;display:grid;align-content:center;padding:calc(var(--vh,1vh)*11) var(--gutter) calc(var(--vh,1vh)*6);color:#2a2418}
+.hs-lbl{margin:0 0 .5rem;font:500 .75rem/1 var(--body);letter-spacing:.22em;text-transform:uppercase;color:var(--oro-ink)}
+.hs-lbl span{margin-right:.35em}
+.hs-h{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.hs-row{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-evenly;gap:1.5rem 3rem;margin-top:1.2rem}
+.hs-list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:clamp(.15rem,.9vh,.6rem)}
+.hs-it{all:unset;cursor:pointer;display:flex;align-items:baseline;gap:.9rem;-webkit-tap-highlight-color:transparent}
+.hs-it:focus-visible{outline:2px solid var(--oro-ink);outline-offset:4px;border-radius:4px}
+.hs-n{width:1.6rem;font:500 .75rem/1 var(--body);letter-spacing:.12em;color:var(--oro-ink);opacity:.45;transition:opacity .3s}
+.hs-it.on .hs-n{opacity:1}
+.hs-t{display:inline-block;font:500 clamp(1.5rem,min(3.4vw,5.1vh),3.4rem)/1.02 var(--display);text-transform:uppercase;letter-spacing:-.005em;color:#2a2418;white-space:nowrap}
+.hs-ch{position:relative;display:inline-block;overflow:hidden;vertical-align:top}
+.hs-ch .a,.hs-ch .b{display:inline-block;transition:transform .3s cubic-bezier(.25,.46,.45,.94) var(--d)}
+.hs-ch .a{opacity:.2}
+.hs-ch .b{position:absolute;left:0;top:0;transform:translateY(110%)}
+.hs-it.on .hs-ch .a{transform:translateY(-110%)}
+.hs-it.on .hs-ch .b{transform:translateY(0)}
+.hs-media{width:min(44vw,680px)}
+.hs-wrap{display:grid;overflow:hidden;border-radius:4px;aspect-ratio:16/10;box-shadow:0 40px 80px -40px rgba(80,55,15,.55)}
+.hs-img{grid-area:1/1;margin:0;width:100%;height:100%;clip-path:polygon(0% 0%,100% 0%,100% 0%,0% 0%);transition:clip-path .8s cubic-bezier(.33,1,.68,1)}
+.hs-img.on{clip-path:polygon(0% 0%,100% 0%,100% 100%,0% 100%)}
+.hs-img video{display:block;width:100%;height:100%;object-fit:cover;background:#e9dcc2}
+.hs-caps{display:grid;margin-top:1.1rem}
+.hs-c{grid-area:1/1;opacity:0;transform:translateY(8px);transition:opacity .45s ease,transform .45s ease;pointer-events:none}
+.hs-c.on{opacity:1;transform:none;transition-delay:.25s}
+.hs-c .gn{display:block;margin-bottom:.45rem;font:500 .75rem/1 var(--body);letter-spacing:.16em;text-transform:uppercase;color:var(--oro-ink)}
+.hs-c p{margin:0;max-width:46ch;font-size:.98rem;line-height:1.5;color:rgba(42,36,24,.82)}
+@media (max-width:760px){
+  .hs{align-content:start;padding:calc(var(--vh,1vh)*10) 16px calc(var(--vh,1vh)*3)}
+  .hs-row{flex-direction:column;align-items:stretch;gap:1.1rem;margin-top:.8rem}
+  .hs-media{order:-1;width:100%}
+  .hs-caps{margin-top:.7rem}.hs-c p{font-size:.88rem}
+  .hs-t{font-size:clamp(1.25rem,6.2vw,1.7rem)}
+  .hs-list{gap:.15rem}
+}
+@media (prefers-reduced-motion:reduce){.hs-ch .a,.hs-ch .b,.hs-img,.hs-c{transition:none}}
+/* the live map: a still of the same map shows until the real one is ready (and wherever outside map data is not allowed) */
+.dv-live{background:#0b0f2c url(map-v3-preview.jpg) 60% 50%/cover no-repeat}
+.dove.live .dv-live{background-image:none}
+.dv-live .maplibregl-ctrl-attrib{font-size:10px;background:rgba(11,15,44,.6)!important;color:rgba(239,239,248,.6)}
+.dv-live .maplibregl-ctrl-attrib a{color:rgba(239,239,248,.75)}
+.dv-live .maplibregl-ctrl-group{background:rgba(14,19,56,.8);border:1px solid rgba(239,239,248,.12);box-shadow:none}
+.dv-live .maplibregl-ctrl-group button+button{border-top-color:rgba(239,239,248,.12)}
+.dv-live .maplibregl-ctrl-icon{filter:invert(1) opacity(.8)}
+.dv-live .maplibregl-ctrl-top-right{top:calc(env(safe-area-inset-top,0px) + 4.6rem)}
+.olo-mk{position:relative;width:46px;height:46px}
+.olo-mk i{position:absolute;inset:0;border-radius:50%;border:1.5px solid #d9b262;opacity:0;animation:oloMk 3s ease-out infinite}
+.olo-mk i+i{animation-delay:1.5s}
+.olo-mk b{position:absolute;inset:4px;border-radius:50%;background:#fff;border:4px solid #d9b262;box-shadow:0 0 24px rgba(217,178,98,.65);display:grid;place-items:center}
+.olo-mk img{width:19px;height:21px;display:block}
+.olo-mk span{position:absolute;left:50%;top:calc(100% + 6px);transform:translateX(-50%);font:400 1.15rem/1 var(--display);color:#efeff8;white-space:nowrap;text-shadow:0 0 6px #0b0f2c,0 0 12px #0b0f2c}
+@keyframes oloMk{0%{transform:scale(1);opacity:.9}100%{transform:scale(3);opacity:0}}
+.olo-pt{display:flex;align-items:center;gap:.5rem;font:600 .8rem/1 var(--body);letter-spacing:.04em;color:#efeff8;text-shadow:0 0 6px #0b0f2c}
+.olo-pt i{width:9px;height:9px;border-radius:50%;background:#efeff8;box-shadow:0 0 0 4px rgba(239,239,248,.18);font-style:normal}
+.olo-pt i.plane{width:auto;height:auto;background:none;box-shadow:none;font-size:1rem}
+.olo-km{padding:.3rem .6rem;border-radius:999px;background:#d9b262;color:#0b0f2c;font:600 .72rem/1 var(--body);letter-spacing:.08em}
+@media (prefers-reduced-motion:reduce){.olo-mk i{animation:none}}
 </style>
 
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "LocalBusiness", "@id": "https://progettazione-netizen.github.io/olosphera/#olosphera", "name": "Olosphera", "description": "Sala immersiva nello showroom Arredoroma a Roma: entri nella tua casa a grandezza naturale prima che esista e scegli finiture e arredi con un architetto.", "url": "https://progettazione-netizen.github.io/olosphera/", "image": "https://progettazione-netizen.github.io/olosphera/og-image.jpg", "logo": "https://progettazione-netizen.github.io/olosphera/icon-512.png", "address": {"@type": "PostalAddress", "streetAddress": "Viale Gaetano Arturo Crocco, 23", "addressLocality": "Roma", "postalCode": "00148", "addressRegion": "RM", "addressCountry": "IT"}, "geo": {"@type": "GeoCoordinates", "latitude": 41.8217, "longitude": 12.395}, "hasMap": "https://www.google.com/maps/search/?api=1&query=Viale+Gaetano+Arturo+Crocco+23,+00148+Roma", "containedInPlace": {"@type": "Place", "name": "Showroom Arredoroma"}, "areaServed": {"@type": "City", "name": "Roma"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": "it", "mainEntity": [{"@type": "Question", "name": "Cos’è Olosphera?", "acceptedAnswer": {"@type": "Answer", "text": "Una sala immersiva nello showroom Arredoroma, a Roma. Entri nella tua futura casa a grandezza naturale, con pareti, finiture e arredi, prima che venga costruita."}}, {"@type": "Question", "name": "Serve un visore?", "acceptedAnswer": {"@type": "Answer", "text": "No. La casa ti circonda sulle pareti della sala: quando cambi una finitura, la vedi cambiare intorno a te."}}, {"@type": "Question", "name": "Quanto dura una sessione?", "acceptedAnswer": {"@type": "Answer", "text": "Dai 30 ai 45 minuti, con un architetto al tuo fianco."}}, {"@type": "Question", "name": "Quanto costa?", "acceptedAnswer": {"@type": "Answer", "text": "La sessione ha un costo, che ti viene scalato dall’acquisto degli arredi. Ti indichiamo l’importo quando fissiamo l’appuntamento."}}, {"@type": "Question", "name": "Come si prenota?", "acceptedAnswer": {"@type": "Answer", "text": "Lascia nome ed email nel modulo qui sotto (il telefono è facoltativo). Ti ricontattiamo entro un giorno lavorativo per fissare l’appuntamento."}}, {"@type": "Question", "name": "Per chi è pensata?", "acceptedAnswer": {"@type": "Answer", "text": "Per chi compra una casa in costruzione e vuole scegliere finiture e arredi senza sorprese alla consegna. E per imprese e agenzie che vogliono mostrare la casa finita quando il cantiere è ancora aperto."}}, {"@type": "Question", "name": "Cosa succede dopo la sessione?", "acceptedAnswer": {"@type": "Answer", "text": "Le tue scelte diventano subito progetto e preventivo ed entrano in cantiere durante la costruzione. Arredoroma fornisce e monta gli arredi, e ritira gratis i mobili vecchi."}}, {"@type": "Question", "name": "Dove si trova?", "acceptedAnswer": {"@type": "Answer", "text": "Nello showroom Arredoroma, in Viale Gaetano Arturo Crocco 23, 00148 Roma."}}]}</script>
 </head>
 <body>
 <script>(function(){var w=innerWidth;function s(){document.documentElement.style.setProperty("--vh",(innerHeight/100)+"px");}s();addEventListener("resize",function(){if(innerWidth!==w){w=innerWidth;s();}});addEventListener("load",s);})();</script>
@@ -414,8 +620,10 @@ body.pulse-prenota .nav a.word{border-color:#d9b262;color:#1d1b18;background:#d9
 </div>
 <div class="grain" aria-hidden="true"></div>
 
+<a class="fab" id="fab" href="#prenota">Prenota</a>
 <header class="nav">
   <a href="#top" aria-label="Olosphera"><img class="lg-w" src="logo-white.png" alt="Olosphera" width="1200" height="324"><img class="lg-c" src="logo-color.png" alt="" width="1080" height="287"></a>
+  <a class="lang" href="en.html" hreflang="en" lang="en" aria-label="English version">EN</a>
   <a class="word" href="#prenota">Prenota</a>
 </header>
 
@@ -424,13 +632,15 @@ body.pulse-prenota .nav a.word{border-color:#d9b262;color:#1d1b18;background:#d9
     <div class="stage">
       <canvas id="cv" width="1024" height="576"></canvas>
       <div class="veil"></div>
-      <div class="hint" id="hint">
-        <span class="label">Sala immersiva · Roma</span>
-        <b>Scorri. Un solo gesto, dalla pianta allo spazio da vivere.</b>
+      <div class="lead" id="hint">
+        <span class="label">Sala immersiva · Showroom Arredoroma, Roma</span>
+        <h1 class="serif">Entra nella tua casa <em>prima che esista.</em></h1>
+        <p class="lead-sub">Pareti, finiture e arredi a grandezza naturale, con un architetto al tuo fianco.</p>
+        <div class="lead-go"><a class="btn" href="#prenota">Prenota la tua esperienza</a><a class="ghost" href="#hero" id="discover">Scopri come <span aria-hidden="true">↓</span></a></div>
       </div>
       <div class="scrolldown" id="sd" aria-hidden="true"></div>
 
-      <h1 class="cap serif" data-from="0.02" data-to="0.17">Per secoli hai immaginato la tua casa <em>su un foglio.</em></h1>
+      <p class="cap serif" data-from="0.05" data-to="0.18">Per secoli hai immaginato la tua casa <em>su un foglio.</em></p>
       <p class="cap serif" data-from="0.20" data-to="0.29">Poi l’hai guardata <em>al computer.</em></p>
       <p class="cap serif" data-from="0.30" data-to="0.36">Oggi <em>ci entri.</em> Prima che esista.</p>
 
@@ -450,59 +660,133 @@ body.pulse-prenota .nav a.word{border-color:#d9b262;color:#1d1b18;background:#d9
         <p class="sub">Chi acquista sceglie finiture e arredi durante la costruzione, senza sorprese alla consegna. Imprese e agenzie mostrano la casa finita quando il cantiere è ancora aperto.</p>
       </div>
     </div>
+    <div class="dusk" id="dusk" aria-hidden="true"></div>
+    <div class="bigt" id="bigT" aria-hidden="true"></div>
   </section>
 
+  <div class="soglia-run" id="sogliaRun">
   <section class="soglia" id="soglia" aria-labelledby="soglia-t">
     <div class="stage" id="sogliaStage">
-      <div class="wall"></div><div class="floor"></div>
+      <div class="wall"></div><div class="floor"></div><div class="cone" aria-hidden="true"></div><div class="spot" aria-hidden="true"></div><div class="halo" aria-hidden="true"><div class="haloc"></div></div><div class="hfloor" aria-hidden="true"></div>
       <div class="floorlight" id="floorLight"></div>
+      <div class="recess" aria-hidden="true"><i class="rv-t"></i><i class="rv-l"></i><i class="rv-r"></i></div>
       <div class="dw">
         <div class="opening"><i id="openLight"></i></div>
-        <div class="door" id="door"><span class="shade" id="doorShade"></span><span class="lit" id="doorLit"></span><span class="rose"><span class="lever" id="lever"></span></span><span class="key"></span></div>
+        <div class="door" id="door"><span class="shade" id="doorShade"></span><span class="lit" id="doorLit"></span><span class="edge"></span><span class="thick" aria-hidden="true"></span><span class="thick top" aria-hidden="true"></span><span class="hshadow" aria-hidden="true"><i class="hs-rose"></i><i class="hs-lever" id="hsLever"></i><i class="hs-key"></i></span><span class="rose"><span class="neck"></span><span class="lever" id="lever"><span class="lv-under"></span></span></span><span class="key"></span></div><span class="slit" id="slit"></span>
       </div>
-      <div class="spill" id="spill"></div>
+      <div class="spill" id="spill"></div><div class="contact" aria-hidden="true"></div>
+      <div class="beam"><div class="beamc" id="beamC"></div></div><div class="wedge"><div class="wedgec" id="wedgeC"></div></div><div class="motes" id="motes" aria-hidden="true"></div>
     </div>
     <div class="cream" id="sogliaCream" aria-hidden="true"></div>
     <h2 class="stitle shutter" id="soglia-t" aria-label="La porta è già aperta."><span class="ln"><span class="w"><span class="ch" style="--i:0"><span class="m">L</span><span class="s s1" aria-hidden="true">L</span><span class="s s2" aria-hidden="true">L</span><span class="s s3" aria-hidden="true">L</span></span><span class="ch" style="--i:1"><span class="m">a</span><span class="s s1" aria-hidden="true">a</span><span class="s s2" aria-hidden="true">a</span><span class="s s3" aria-hidden="true">a</span></span></span><span class="sp"> </span><span class="w"><span class="ch" style="--i:2"><span class="m">p</span><span class="s s1" aria-hidden="true">p</span><span class="s s2" aria-hidden="true">p</span><span class="s s3" aria-hidden="true">p</span></span><span class="ch" style="--i:3"><span class="m">o</span><span class="s s1" aria-hidden="true">o</span><span class="s s2" aria-hidden="true">o</span><span class="s s3" aria-hidden="true">o</span></span><span class="ch" style="--i:4"><span class="m">r</span><span class="s s1" aria-hidden="true">r</span><span class="s s2" aria-hidden="true">r</span><span class="s s3" aria-hidden="true">r</span></span><span class="ch" style="--i:5"><span class="m">t</span><span class="s s1" aria-hidden="true">t</span><span class="s s2" aria-hidden="true">t</span><span class="s s3" aria-hidden="true">t</span></span><span class="ch" style="--i:6"><span class="m">a</span><span class="s s1" aria-hidden="true">a</span><span class="s s2" aria-hidden="true">a</span><span class="s s3" aria-hidden="true">a</span></span></span></span><span class="ln"><span class="w gold"><span class="ch" style="--i:7"><span class="m">è</span><span class="s s1" aria-hidden="true">è</span><span class="s s2" aria-hidden="true">è</span><span class="s s3" aria-hidden="true">è</span></span></span><span class="sp"> </span><span class="w gold"><span class="ch" style="--i:8"><span class="m">g</span><span class="s s1" aria-hidden="true">g</span><span class="s s2" aria-hidden="true">g</span><span class="s s3" aria-hidden="true">g</span></span><span class="ch" style="--i:9"><span class="m">i</span><span class="s s1" aria-hidden="true">i</span><span class="s s2" aria-hidden="true">i</span><span class="s s3" aria-hidden="true">i</span></span><span class="ch" style="--i:10"><span class="m">à</span><span class="s s1" aria-hidden="true">à</span><span class="s s2" aria-hidden="true">à</span><span class="s s3" aria-hidden="true">à</span></span></span><span class="sp"> </span><span class="w gold"><span class="ch" style="--i:11"><span class="m">a</span><span class="s s1" aria-hidden="true">a</span><span class="s s2" aria-hidden="true">a</span><span class="s s3" aria-hidden="true">a</span></span><span class="ch" style="--i:12"><span class="m">p</span><span class="s s1" aria-hidden="true">p</span><span class="s s2" aria-hidden="true">p</span><span class="s s3" aria-hidden="true">p</span></span><span class="ch" style="--i:13"><span class="m">e</span><span class="s s1" aria-hidden="true">e</span><span class="s s2" aria-hidden="true">e</span><span class="s s3" aria-hidden="true">e</span></span><span class="ch" style="--i:14"><span class="m">r</span><span class="s s1" aria-hidden="true">r</span><span class="s s2" aria-hidden="true">r</span><span class="s s3" aria-hidden="true">r</span></span><span class="ch" style="--i:15"><span class="m">t</span><span class="s s1" aria-hidden="true">t</span><span class="s s2" aria-hidden="true">t</span><span class="s s3" aria-hidden="true">t</span></span><span class="ch" style="--i:16"><span class="m">a</span><span class="s s1" aria-hidden="true">a</span><span class="s s2" aria-hidden="true">a</span><span class="s s3" aria-hidden="true">a</span></span><span class="ch" style="--i:17"><span class="m">.</span><span class="s s1" aria-hidden="true">.</span><span class="s s2" aria-hidden="true">.</span><span class="s s3" aria-hidden="true">.</span></span></span></span></h2>
-    <div class="top"><span></span><a class="skip" href="#percorso">Salta</a></div>
-    <button class="hold" id="holdBtn" type="button" aria-label="Tieni premuto la porta per aprirla ed entrare"></button>
+    <button class="hold" id="holdBtn" type="button" aria-label="Apri la porta ed entra"></button>
     <div class="ui" id="sogliaUi">
 
-      <span class="holdhint" id="holdHint">Tieni premuto sulla porta</span>
+      <span class="holdhint" id="holdHint"><span class="cue" aria-hidden="true"></span>Scorri per entrare</span>
+      <a class="entra" id="entraBtn" href="#percorso">Entra <span aria-hidden="true">↓</span></a>
+      <span class="holdalt">o tocca la porta</span>
     </div>
   </section>
-  <div class="flash" id="flash" aria-hidden="true"></div>
+  </div>
+  <div class="sflash" id="sflash" aria-hidden="true"></div>
 
-  <section class="percorso" id="percorso" aria-labelledby="percorso-t">
-    <img class="pbg" src="frames/f109.webp" alt="" loading="lazy">
-    <div class="pveil"></div>
-    <div class="dust" aria-hidden="true"><i style="left:33.1%;top:22.8%;animation-delay:-9.1s;animation-duration:11.6s;--d:2.6px"></i><i style="left:37.1%;top:14.9%;animation-delay:-7.1s;animation-duration:11.3s;--d:2.4px"></i><i style="left:8.7%;top:17.7%;animation-delay:-5.9s;animation-duration:17.6s;--d:1.7px"></i><i style="left:23.4%;top:63.3%;animation-delay:-13.3s;animation-duration:15.6s;--d:2.3px"></i><i style="left:95.7%;top:14.0%;animation-delay:-12.0s;animation-duration:13.3s;--d:1.8px"></i><i style="left:13.3%;top:36.2%;animation-delay:-11.4s;animation-duration:12.4s;--d:2.7px"></i><i style="left:63.3%;top:41.7%;animation-delay:-7.7s;animation-duration:11.5s;--d:1.6px"></i><i style="left:21.8%;top:67.8%;animation-delay:-6.0s;animation-duration:13.5s;--d:2.7px"></i><i style="left:45.5%;top:35.5%;animation-delay:-11.1s;animation-duration:16.6s;--d:2.0px"></i><i style="left:57.1%;top:54.6%;animation-delay:-12.3s;animation-duration:16.8s;--d:2.1px"></i><i style="left:96.1%;top:20.0%;animation-delay:-5.9s;animation-duration:17.1s;--d:1.8px"></i><i style="left:48.9%;top:13.3%;animation-delay:-9.4s;animation-duration:17.1s;--d:2.6px"></i><i style="left:86.0%;top:36.7%;animation-delay:-9.7s;animation-duration:15.8s;--d:2.7px"></i><i style="left:45.8%;top:81.4%;animation-delay:-13.2s;animation-duration:14.8s;--d:2.8px"></i><i style="left:7.8%;top:69.6%;animation-delay:-9.1s;animation-duration:18.9s;--d:3.1px"></i><i style="left:29.3%;top:42.8%;animation-delay:-9.4s;animation-duration:11.2s;--d:2.4px"></i><i style="left:18.1%;top:20.0%;animation-delay:-0.8s;animation-duration:17.1s;--d:1.8px"></i><i style="left:25.8%;top:43.2%;animation-delay:-12.2s;animation-duration:11.6s;--d:2.4px"></i><i style="left:54.7%;top:85.1%;animation-delay:-11.5s;animation-duration:17.9s;--d:2.1px"></i><i style="left:41.9%;top:40.5%;animation-delay:-12.4s;animation-duration:18.7s;--d:1.8px"></i><i style="left:18.9%;top:29.7%;animation-delay:-3.3s;animation-duration:14.9s;--d:2.7px"></i><i style="left:27.2%;top:10.3%;animation-delay:-5.9s;animation-duration:14.0s;--d:2.6px"></i></div><div class="sweep2" aria-hidden="true"></div>
-    <div class="phead fx">
-      <div>
-        <p class="label">Il percorso Olosphera</p>
-        <h2 class="serif" id="percorso-t"><span class="ln"><span>Dalla richiesta</span></span><span class="ln"><span style="transition-delay:.12s">alla <em>consegna.</em></span></span></h2>
+  <section class="giro" id="percorso" aria-labelledby="percorso-t">
+    <div class="gstage" id="gStage">
+      <div class="gdark" id="gDark" aria-hidden="true"></div>
+      <div class="hs" id="hs">
+        <p class="hs-lbl"><span aria-hidden="true">/</span> Il percorso Olosphera</p>
+        <h2 class="hs-h" id="percorso-t">Dalla richiesta alla consegna, in otto passi.</h2>
+        <div class="hs-row">
+          <ol class="hs-list">
+          <li><button class="hs-it on" type="button" data-i="0" aria-controls="hsMedia" aria-pressed="true"><span class="hs-n">01</span><span class="hs-t">Richiesta</span></button></li>
+          <li><button class="hs-it" type="button" data-i="1" aria-controls="hsMedia" aria-pressed="false"><span class="hs-n">02</span><span class="hs-t">Ascolto</span></button></li>
+          <li><button class="hs-it" type="button" data-i="2" aria-controls="hsMedia" aria-pressed="false"><span class="hs-n">03</span><span class="hs-t">Preparazione</span></button></li>
+          <li><button class="hs-it" type="button" data-i="3" aria-controls="hsMedia" aria-pressed="false"><span class="hs-n">04</span><span class="hs-t">Sala immersiva</span></button></li>
+          <li><button class="hs-it" type="button" data-i="4" aria-controls="hsMedia" aria-pressed="false"><span class="hs-n">05</span><span class="hs-t">Progetto e preventivo</span></button></li>
+          <li><button class="hs-it" type="button" data-i="5" aria-controls="hsMedia" aria-pressed="false"><span class="hs-n">06</span><span class="hs-t">Cantiere</span></button></li>
+          <li><button class="hs-it" type="button" data-i="6" aria-controls="hsMedia" aria-pressed="false"><span class="hs-n">07</span><span class="hs-t">Fornitura e montaggio</span></button></li>
+          <li><button class="hs-it" type="button" data-i="7" aria-controls="hsMedia" aria-pressed="false"><span class="hs-n">08</span><span class="hs-t">Consegna</span></button></li>
+          </ol>
+          <div class="hs-media" id="hsMedia" aria-live="polite">
+            <div class="hs-wrap">
+            <figure class="hs-img on" data-i="0"><video muted loop playsinline preload="none" poster="videos/p01-richiesta.webp" data-src="videos/p01-richiesta.mp4"></video></figure>
+            <figure class="hs-img" data-i="1"><video muted loop playsinline preload="none" poster="videos/p02-ascolto.webp" data-src="videos/p02-ascolto.mp4"></video></figure>
+            <figure class="hs-img" data-i="2"><video muted loop playsinline preload="none" poster="videos/p03-preparazione.webp" data-src="videos/p03-preparazione.mp4"></video></figure>
+            <figure class="hs-img" data-i="3"><video muted loop playsinline preload="none" poster="videos/p04-sala.webp" data-src="videos/p04-sala.mp4"></video></figure>
+            <figure class="hs-img" data-i="4"><video muted loop playsinline preload="none" poster="videos/p05-progetto.webp" data-src="videos/p05-progetto.mp4"></video></figure>
+            <figure class="hs-img" data-i="5"><video muted loop playsinline preload="none" poster="videos/p06-cantiere.webp" data-src="videos/p06-cantiere.mp4"></video></figure>
+            <figure class="hs-img" data-i="6"><video muted loop playsinline preload="none" poster="videos/p07-montaggio.webp" data-src="videos/p07-montaggio.mp4"></video></figure>
+            <figure class="hs-img" data-i="7"><video muted loop playsinline preload="none" poster="videos/p08-consegna.webp" data-src="videos/p08-consegna.mp4"></video></figure>
+            </div>
+            <div class="hs-caps">
+            <div class="hs-c on" data-i="0"><span class="gn">01 · Atto I</span><p>Prenoti dal sito in un minuto: nome, email, telefono. Ti ricontattiamo entro un giorno lavorativo.</p></div>
+            <div class="hs-c" data-i="1"><span class="gn">02 · Atto I</span><p>Ci incontriamo nello showroom Arredoroma: la tua casa, i tuoi gusti, come la vivrai ogni giorno.</p></div>
+            <div class="hs-c" data-i="2"><span class="gn">03 · Atto I</span><p>I nostri architetti trasformano la pianta in uno spazio a grandezza naturale, con finiture e arredi pronti da provare.</p></div>
+            <div class="hs-c" data-i="3"><span class="gn">04 · Atto II</span><p>Nessun visore: la tua casa ti circonda a grandezza naturale. Cambi una finitura, e cambia intorno a te.</p></div>
+            <div class="hs-c" data-i="4"><span class="gn">05 · Atto II</span><p>Con l’architetto al tuo fianco ogni scelta diventa subito progetto e preventivo. Gli impianti seguono l’arredo.</p></div>
+            <div class="hs-c" data-i="5"><span class="gn">06 · Atto III</span><p>Le tue scelte entrano in cantiere durante la costruzione. Ti seguiamo a ogni stato di avanzamento.</p></div>
+            <div class="hs-c" data-i="6"><span class="gn">07 · Atto III</span><p>Arredoroma fornisce e monta gli arredi. I mobili vecchi? Li ritiriamo noi, gratis.</p></div>
+            <div class="hs-c" data-i="7"><span class="gn">08 · Atto III</span><p>Apri la porta: quello che hai scelto è quello che trovi. Senza sorprese.</p></div>
+            </div>
+          </div>
+        </div>
       </div>
-      <p class="sub">Otto passi, dal primo contatto al giorno in cui apri la porta di casa. In mezzo, il momento in cui la vivi prima che esista.</p>
     </div>
-    <div class="acts fx" aria-hidden="true"><div class="a1">Atto I · <b>Prima</b></div><div class="a2">Atto II · <b>Dentro la sala</b></div><div class="a3">Atto III · <b>Fino a casa</b></div></div>
-    <ol class="steps8" id="steps8"><li class="comet" aria-hidden="true"></li>
-      <li class="fx" style="transition-delay:0.00s"><div class="n"><span>01</span></div><svg viewBox="0 0 24 24" fill="none" stroke="#d9b262" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15" rx="2" pathLength="1"/><path d="M3.5 10h17M8 3v4M16 3v4M8 14h3" pathLength="1"/></svg><h3>Richiesta</h3><p>Prenoti dal sito in un minuto: nome, email, telefono. Ti ricontattiamo entro un giorno lavorativo.</p></li>
-      <li class="fx" style="transition-delay:0.09s"><div class="n"><span>02</span></div><svg viewBox="0 0 24 24" fill="none" stroke="#d9b262" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5h16v10H9l-5 4z" pathLength="1"/><path d="M8 9h8M8 12h5" pathLength="1"/></svg><h3>Ascolto</h3><p>Ci incontriamo nello showroom Arredoroma: la tua casa, i tuoi gusti, come la vivrai ogni giorno.</p></li>
-      <li class="fx" style="transition-delay:0.18s"><div class="n"><span>03</span></div><svg viewBox="0 0 24 24" fill="none" stroke="#d9b262" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="1" pathLength="1"/><path d="M3 12h7v9M10 3v5M14 12h7M14 12v4" pathLength="1"/></svg><h3>Preparazione</h3><p>I nostri architetti trasformano la pianta in uno spazio a grandezza naturale, con finiture e arredi pronti da provare.</p></li>
-      <li class="fx key" style="transition-delay:0.27s"><div class="n"><span>04</span></div><svg viewBox="0 0 24 24" fill="none" stroke="#d9b262" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 4l6 4v8l-6 4zM22 4l-6 4v8l6 4zM8 8h8M8 16h8M2 4h20M2 20h20" pathLength="1"/></svg><h3>Sala immersiva</h3><p>Nessun visore: la tua casa ti circonda a grandezza naturale. Cambi una finitura, e cambia intorno a te.</p></li>
-      <li class="fx" style="transition-delay:0.36s"><div class="n"><span>05</span></div><svg viewBox="0 0 24 24" fill="none" stroke="#d9b262" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h9l4 4v14H6z" pathLength="1"/><path d="M15 3v4h4M9 12h7M9 15h7M9 18h4" pathLength="1"/></svg><h3>Progetto e preventivo</h3><p>Con l’architetto al tuo fianco ogni scelta diventa subito progetto e preventivo. Gli impianti seguono l’arredo.</p></li>
-      <li class="fx" style="transition-delay:0.45s"><div class="n"><span>06</span></div><svg viewBox="0 0 24 24" fill="none" stroke="#d9b262" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 21V9l8-5 8 5v12" pathLength="1"/><path d="M2 21h20M9 21v-6h6v6M8 11h2M14 11h2" pathLength="1"/></svg><h3>Cantiere</h3><p>Le tue scelte entrano in cantiere durante la costruzione. Ti seguiamo a ogni stato di avanzamento.</p></li>
-      <li class="fx" style="transition-delay:0.54s"><div class="n"><span>07</span></div><svg viewBox="0 0 24 24" fill="none" stroke="#d9b262" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 11V8a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v3" pathLength="1"/><path d="M3 13a2 2 0 0 1 4 0v2h10v-2a2 2 0 0 1 4 0v5H3zM5 18v2M19 18v2" pathLength="1"/></svg><h3>Fornitura e montaggio</h3><p>Arredoroma fornisce e monta gli arredi. I mobili vecchi? cambioarredo li ritira gratis.</p></li>
-      <li class="fx" style="transition-delay:0.63s"><div class="n"><span>08</span></div><svg viewBox="0 0 24 24" fill="none" stroke="#d9b262" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="8" cy="15" r="4" pathLength="1"/><path d="M11 12l9-9M17 6l2 2M15 8l2 2" pathLength="1"/></svg><h3>Consegna</h3><p>Apri la porta: quello che hai scelto è quello che trovi. Senza sorprese.</p></li>
-    </ol>
-    <div class="pfoot fx">
+  </section>
+  <section class="gend sculpt" id="scultura">
+    <h2 class="sc-word" aria-label="Olosphera">
+      <span class="sc-w sc-olos" aria-hidden="true"></span>
+      <span class="sc-stage" id="scStage"><img class="sc-sym" src="logoc-sym.png" alt="" width="257" height="287"></span>
+      <span class="sc-w sc-hera" aria-hidden="true"></span>
+    </h2>
+    <div class="sc-copy">
       <p class="serif">Quello che scegli <em>è quello che trovi.</em></p>
       <div class="go"><span class="where">Showroom Arredoroma · Roma</span><a class="btn" href="#prenota">Prenota la tua esperienza</a></div>
     </div>
   </section>
 
+  <section class="faq" id="faq" aria-labelledby="faq-t">
+    <div class="faq-card">
+      <div class="faq-bg" aria-hidden="true"></div>
+      <div class="faq-in">
+        <div class="faq-side fx">
+          <p class="label">Domande frequenti</p>
+          <h2 class="serif" id="faq-t">Prima di <em>venire.</em></h2>
+          <p class="faq-lead">Le risposte alle domande che ci fanno più spesso. Per tutto il resto, ti richiamiamo noi.</p>
+          <a class="faq-cta" href="#prenota">Prenota la tua esperienza <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="faq-list fx">
+          <details><summary>Cos’è Olosphera?</summary><p>Una sala immersiva nello showroom Arredoroma, a Roma. Entri nella tua futura casa a grandezza naturale, con pareti, finiture e arredi, prima che venga costruita.</p></details>
+          <details><summary>Serve un visore?</summary><p>No. La casa ti circonda sulle pareti della sala: quando cambi una finitura, la vedi cambiare intorno a te.</p></details>
+          <details><summary>Quanto dura una sessione?</summary><p>Dai 30 ai 45 minuti, con un architetto al tuo fianco.</p></details>
+          <details><summary>Quanto costa?</summary><p>La sessione ha un costo, che ti viene scalato dall’acquisto degli arredi. Ti indichiamo l’importo quando fissiamo l’appuntamento.</p></details>
+          <details><summary>Come si prenota?</summary><p>Lascia nome ed email nel modulo qui sotto (il telefono è facoltativo). Ti ricontattiamo entro un giorno lavorativo per fissare l’appuntamento.</p></details>
+          <details><summary>Per chi è pensata?</summary><p>Per chi compra una casa in costruzione e vuole scegliere finiture e arredi senza sorprese alla consegna. E per imprese e agenzie che vogliono mostrare la casa finita quando il cantiere è ancora aperto.</p></details>
+          <details><summary>Cosa succede dopo la sessione?</summary><p>Le tue scelte diventano subito progetto e preventivo ed entrano in cantiere durante la costruzione. Arredoroma fornisce e monta gli arredi, e ritira gratis i mobili vecchi.</p></details>
+          <details><summary>Dove si trova?</summary><p>Nello showroom Arredoroma, in Viale Gaetano Arturo Crocco 23, 00148 Roma.</p></details>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="dove" id="dove" aria-labelledby="dv-h">
+    <div class="dv-map dv-live" id="dvLive" role="img" aria-label="Mappa di Roma: Olosphera si trova nello showroom Arredoroma, in Viale Gaetano Arturo Crocco 23, sul Grande Raccordo Anulare a sud-ovest del centro, vicino all’autostrada per Fiumicino."></div
+>
+    <div class="dv-panel">
+      <p class="label">Dove siamo</p>
+      <h2 class="serif" id="dv-h">Showroom Arredoroma, <em>Roma.</em></h2>
+      <p class="dv-addr">Viale Gaetano Arturo Crocco, 23<br>00148 Roma</p>
+      <ul class="dv-facts">
+        <li><b>11 km</b> dal centro storico</li>
+        <li><b>12 km</b> dall’aeroporto di Fiumicino</li>
+      </ul>
+      <p class="dv-note">Distanze in linea d’aria.</p>
+      <a class="btn" href="https://www.google.com/maps/search/?api=1&amp;query=Viale+Gaetano+Arturo+Crocco+23,+00148+Roma" target="_blank" rel="noopener">Apri in Google Maps <span aria-hidden="true">↗</span></a>
+    </div>
+  </section>
+
   <section class="scene" id="prenota">
-    <p class="label fx"><span>04</span> Prenota</p>
+    <p class="label fx">Prenota</p>
     <h2 class="serif fx" style="max-width:14ch">Vieni <em>a vederla.</em></h2>
     <div class="book fx">
       <form id="bookForm" novalidate>
@@ -515,29 +799,52 @@ body.pulse-prenota .nav a.word{border-color:#d9b262;color:#1d1b18;background:#d9
       <div class="ok" id="ok" hidden><b>Richiesta ricevuta.</b><p>Ti contattiamo entro un giorno lavorativo.</p></div>
       <div class="meta">
         <dl>
-          <div><dt>Dove</dt><dd>Showroom Arredoroma, Roma</dd></div>
-          <div><dt>Email</dt><dd class="todo">[email da inserire]</dd></div>
-          <div><dt>Telefono</dt><dd class="todo">[numero da inserire]</dd></div>
+          <div><dt>Dove</dt><dd>Showroom Arredoroma<br>Viale Gaetano Arturo Crocco, 23<br>00148 Roma</dd></div>
+          <!-- email e telefono: aggiungere qui quando ci sono, es. <div><dt>Email</dt><dd><a href="mailto:...">...</a></dd></div> -->
         </dl>
       </div>
     </div>
   </section>
 </main>
 
+<div class="ofocus" id="ofocus" aria-hidden="true"></div>
 <div class="ollie" id="ollie" aria-hidden="true" title="Tocca Ollie">
   <div class="stage3d"><canvas id="ollie3d"></canvas></div>
   <img class="fallback2d" hidden src="ollie-body.png" alt="">
-  <div class="peek" id="peek" aria-hidden="true">Ciao! <b>Toccami</b></div>
+  <div class="peek" id="peek" aria-hidden="true">Ciao</div>
   <div class="bubble" id="bubble" role="status" aria-live="polite">
     <button class="x" id="bx" type="button" aria-label="Chiudi">×</button>
     <span class="t" id="bt"></span>
     <div class="row"><div class="dots" id="bd"></div><button class="next" id="bn" type="button">Avanti →</button></div>
   </div>
 </div>
-<footer>
-  <span>Olosphera · un progetto di Residenze Immobiliare e Arredoroma</span>
-  <span>Roma · © 2026</span>
+<div class="cine" id="cine">
+<footer class="cf" aria-labelledby="cf-t">
+  <div class="cf-aurora" aria-hidden="true"></div>
+  <div class="cf-grid" aria-hidden="true"></div>
+  <div class="cf-giant" aria-hidden="true"><i class="cf-olos"></i><i class="cf-sym"></i><i class="cf-hera"></i></div>
+  <div class="cf-mq" aria-hidden="true"><div class="cf-mqt"><div class="cf-mqi"><span>Sala immersiva</span><span class="cf-st">✦</span><span>Nessun visore</span><span class="cf-st b">✦</span><span>Con un architetto</span><span class="cf-st">✦</span><span>Showroom Arredoroma</span><span class="cf-st b">✦</span><span>Roma</span><span class="cf-st">✦</span></div><div class="cf-mqi"><span>Sala immersiva</span><span class="cf-st">✦</span><span>Nessun visore</span><span class="cf-st b">✦</span><span>Con un architetto</span><span class="cf-st">✦</span><span>Showroom Arredoroma</span><span class="cf-st b">✦</span><span>Roma</span><span class="cf-st">✦</span></div></div></div>
+  <div class="cf-center">
+    <h2 class="cf-h" id="cf-t">La tua casa ti aspetta.</h2>
+    <div class="cf-acts">
+      <div class="cf-row">
+        <a class="cf-pill cf-big cf-mag" href="#prenota"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4.5" width="18" height="16" rx="2.5"/><path d="M8 2.8v3.4M16 2.8v3.4M3 9.5h18"/></svg>Prenota la tua esperienza</a>
+        <a class="cf-pill cf-big cf-mag" href="https://www.google.com/maps/search/?api=1&amp;query=Viale+Gaetano+Arturo+Crocco+23,+00148+Roma" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-6.5-5.6-6.5-11A6.5 6.5 0 0 1 18.5 10c0 5.4-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.4"/></svg>Apri in Google Maps</a>
+      </div>
+      <div class="cf-row cf-small">
+        <a class="cf-pill cf-sm cf-mag" href="#percorso">Il percorso</a>
+        <a class="cf-pill cf-sm cf-mag" href="#faq">Domande frequenti</a>
+        <a class="cf-pill cf-sm cf-mag cf-lang" href="en.html" hreflang="en" lang="en">English</a>
+      </div>
+    </div>
+  </div>
+  <div class="cf-bar">
+    <div class="cf-copy">© 2026 Olosphera · Roma</div>
+    <div class="cf-pill cf-credit"><span>Un progetto di</span><span class="cf-beat" aria-hidden="true">✦</span><b>Residenze Immobiliare &amp; Arredoroma</b></div>
+    <a class="cf-pill cf-up cf-mag" href="#top" aria-label="Torna su"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 10l7-7m0 0l7 7m-7-7v18"/></svg></a>
+  </div>
 </footer>
+</div>
 
 <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.18/dist/lenis.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/three@0.147.0/build/three.min.js"></script>
@@ -555,22 +862,27 @@ var OLO_BASE='';
   /* --- intro --- */
   var intro=document.getElementById('intro');
   if(intro && !matchMedia('(prefers-reduced-motion: reduce)').matches){
-    document.body.classList.add('locked'); scrollTo(0,0); if(lenis) lenis.stop();
-    var imgs=[].slice.call(intro.querySelectorAll('img')), n=0;
-    function start(){ requestAnimationFrame(function(){ intro.classList.add('go'); });
-      setTimeout(function(){ intro.classList.add('out'); document.body.classList.remove('locked'); if(lenis) lenis.start(); setTimeout(function(){ intro.remove(); },1200); },3300); }
-    imgs.forEach(function(im){ if(im.complete) ++n===imgs.length&&start(); else im.onload=im.onerror=function(){ ++n===imgs.length&&start(); }; });
-    setTimeout(function(){ if(!intro.classList.contains('go')) start(); },1500);
+    /* short, never locks the page, any gesture skips it, and it plays once per visit */
+    var seen=false; try{ seen=sessionStorage.getItem('olosIntro')==='1'; sessionStorage.setItem('olosIntro','1'); }catch(e){}
+    var imgs=[].slice.call(intro.querySelectorAll('img')), n=0, gone=false;
+    function leave(){ if(gone) return; gone=true; intro.classList.add('out'); ['wheel','touchstart','keydown','pointerdown'].forEach(function(ev){ removeEventListener(ev,leave); }); setTimeout(function(){ intro.remove(); },650); }
+    if(seen){ intro.remove(); }
+    else {
+      ['wheel','touchstart','keydown','pointerdown'].forEach(function(ev){ addEventListener(ev,leave,{passive:true}); });
+      function start(){ requestAnimationFrame(function(){ intro.classList.add('go'); }); setTimeout(leave,1800); }
+      imgs.forEach(function(im){ if(im.complete) ++n===imgs.length&&start(); else im.onload=im.onerror=function(){ ++n===imgs.length&&start(); }; });
+      setTimeout(function(){ if(!intro.classList.contains('go')) start(); },600);
+    }
   } else if(intro){ intro.remove(); }
 
   /* --- scroll-driven frames --- */
-  var N=295, cv=document.getElementById('cv'), ctx=cv.getContext('2d'), frames=new Array(N), loaded=0, cur=-1, target=0, shown=0;
+  var N=295, STRIDE=1, cv=document.getElementById('cv'), ctx=cv.getContext('2d'), frames=new Array(N), loaded=0, cur=-1, target=0, shown=0;
   var sec=document.getElementById('hero'), hint=document.getElementById('hint'), sd=document.getElementById('sd');
   var caps=[].slice.call(document.querySelectorAll('.cap')).map(function(e){return {el:e,a:+e.dataset.from,b:+e.dataset.to};});
   /* phones in portrait get centre-cropped frames packed five to a sheet: same picture they would see, a third of the memory */
   var PHONE=(matchMedia('(hover: none) and (pointer: coarse)').matches && innerWidth<=760 && innerHeight>innerWidth), PER=PHONE?5:1, req={};
-  if(PHONE) document.documentElement.classList.add('phone');
-  function sheetSrc(s){ return PHONE ? 'frames-m/s'+String(s).padStart(2,'0')+'.webp' : 'frames/f'+String(s+1).padStart(3,'0')+'.webp'; }
+  if(PHONE) document.documentElement.classList.add('phone'); else { STRIDE=2; N=148; frames=new Array(N); }
+  function sheetSrc(s){ return PHONE ? 'frames-m/s'+String(s).padStart(2,'0')+'.webp' : 'frames/f'+String(s*STRIDE+1).padStart(3,'0')+'.webp'; }
   function load(i,cb,tries){ if(frames[i]) {cb&&cb(); return;} var s=Math.floor(i/PER); if(req[s]==='fail'){ cb&&cb(); return; } if(req[s]&&!tries){ req[s].push(cb); return; } if(!req[s]) req[s]=[]; if(!tries) req[s].push(cb);
     var im=new Image(); im.decoding='async';
     im.onload=function(){ var fh=im.height/PER; for(var k=0;k<PER;k++){ var j=s*PER+k; if(j<N && !frames[j]){ frames[j]={im:im,y:k*fh,w:im.width,h:fh}; loaded++; } } var q=req[s]; req[s]=[]; q.forEach(function(f){ f&&f(); }); };
@@ -612,7 +924,8 @@ var OLO_BASE='';
 
   var navEl=document.querySelector('.nav'), heroEl=document.getElementById('hero');
   var darkSec=document.getElementById('percorso'), sogliaSec=document.getElementById('soglia');
-  (function navLoop(){ var dr=darkSec.getBoundingClientRect(), sr2=sogliaSec.getBoundingClientRect(), overDark=(dr.top<70 && dr.bottom>40); navEl.classList.toggle('onlight', !overDark && ((window.__hp||0) > 0.9 || scrollY > heroEl.offsetHeight - 80)); requestAnimationFrame(navLoop); })();
+  var faqCard=document.querySelector('.faq-card');
+  (function navLoop(){ var dr=darkSec.getBoundingClientRect(), sr2=sogliaSec.getBoundingClientRect(), dk=document.getElementById('dusk').getBoundingClientRect(), fq=faqCard?faqCard.getBoundingClientRect():null, overDark=window.__giroDark||(sr2.top<innerHeight*0.25 && sr2.bottom>40)||(dk.top+dk.height*0.3<70 && sr2.bottom>40)||(fq&&fq.top<44&&fq.bottom>44)||(function(){ var d=document.getElementById('dove').getBoundingClientRect(); return d.top<44&&d.bottom>44; })()||document.getElementById('cine').getBoundingClientRect().top<44; navEl.classList.toggle('onlight', !overDark && ((window.__hp||0) > 0.9 || scrollY > heroEl.offsetHeight - 80)); requestAnimationFrame(navLoop); })();
 
 
   /* --- Ollie --- */
@@ -774,12 +1087,9 @@ var OLO_BASE='';
   stage3d.addEventListener('mouseenter',function(){ O3.hover=true; clearTimeout(hoverTimer); hoverTimer=setTimeout(function(){ if(O3.hover && !talking()) express('content',1900); },1600); });
   stage3d.addEventListener('mouseleave',function(){ O3.hover=false; clearTimeout(hoverTimer); });
   var lines=[
-    'Ciao, sono <b>Ollie</b>. Ti racconto cosa succede qui dentro.',
-    '<b>Sala immersiva.</b> Entri nella tua casa prima che esista: pareti a grandezza naturale, con le finiture e gli arredi che hai scelto tu.',
-    '<b>Arredoroma.</b> I nostri architetti progettano l’arredo, noi lo forniamo e lo montiamo. Quello che vedi in sala è quello che trovi in casa.',
-    '<b>cambioarredo.</b> Hai mobili vecchi? Li ritiriamo gratis e li mandiamo in una filiera sostenibile.',
-    '<b>ARRAPP.</b> E se vuoi venderli, lo fai online, senza nemmeno muoverli da casa.',
-    'Vuoi vederla con i tuoi occhi? <br><a class="btn pulse" href="#prenota">Prenota la tua esperienza</a>'
+    'Ciao, sono <b>Ollie</b>. Ti spiego in breve com’è la visita.',
+    '<b>Da 30 a 45 minuti in sala immersiva</b>, con un architetto: scegli finiture e arredi e li vedi intorno a te, a grandezza naturale.',
+    'Lascia nome ed email qui accanto: <b>ti richiamiamo entro un giorno</b> per fissare l’appuntamento. <br><a class="tolink" href="#nome" onclick="var n=document.getElementById(\'nome\'); if(n){ n.focus(); } return false;">Compila il modulo →</a>'
   ];
   var bubble=document.getElementById('bubble'), bt=document.getElementById('bt'), bd=document.getElementById('bd'), bn=document.getElementById('bn'), bx=document.getElementById('bx');
   lines.forEach(function(){ bd.appendChild(document.createElement('i')); });
@@ -787,22 +1097,25 @@ var OLO_BASE='';
   function talking(){ return talk.started && !talk.done && bubble.classList.contains('on'); }
   function say(text){ var ms=Math.max(42,Math.min(60,4200/Math.max(1,text.length))); O3.speak={text:text,start:performance.now(),ms:ms,until:performance.now()+text.length*ms}; }
   function showLine(i){ talk.i=i; bt.classList.add('fade'); setTimeout(function(){ bt.innerHTML=lines[i]; bt.classList.remove('fade'); var plain=bt.textContent||''; say(plain);
-      if(i===lines.length-1){ setTimeout(function(){ O3.winkT=performance.now(); O3.camUntil=performance.now()+1400; express('content',900); },O3.speak.until-performance.now()+150); startPulse(); } },350);
+      if(i===lines.length-1){ clearTimeout(talk.unblur); talk.unblur=setTimeout(focusOff,Math.max(0,O3.speak.until-performance.now())+1200); setTimeout(function(){ O3.winkT=performance.now(); O3.camUntil=performance.now()+1400; express('content',900); },O3.speak.until-performance.now()+150); startPulse(); } },350);
     [].slice.call(bd.children).forEach(function(d,k){ d.classList.toggle('on',k===i); }); bn.hidden = i>=lines.length-1; }
   function schedule(){ clearTimeout(talk.timer); if(talk.done) return; var last=talk.i>=lines.length-1; var extra=O3.speak?Math.max(0,O3.speak.until-performance.now()-2600):0; talk.timer=setTimeout(function(){ if(last) finish(); else showLine(talk.i+1), schedule(); }, (last?7000:5200)+extra); }
-  var isPhone=matchMedia('(max-width:640px)'), peek=document.getElementById('peek');
-  function greet(){ if(O3.greeted) return; O3.greeted=true; setTimeout(function(){ peek.classList.add('on'); express('surprise',600); },900); setTimeout(function(){ peek.classList.remove('on'); },5200); }
-  function startTalk(){ if(talk.started) return; talk.started=true; peek.classList.remove('on'); if(!isPhone.matches) ollie.classList.add('big'); document.body.classList.add('talking'); setTimeout(function(){ express('surprise',650); },900); setTimeout(function(){ bubble.classList.add('on'); showLine(0); schedule(); },1500); }
-  function finish(){ talk.done=true; clearTimeout(talk.timer); O3.speak=null; bubble.classList.remove('on'); setTimeout(function(){ ollie.classList.remove('big'); document.body.classList.remove('talking'); },400); }
+  var isPhone=matchMedia('(max-width:640px)'), peek=document.getElementById('peek'), ofocus=document.getElementById('ofocus');
+  /* while Ollie explains, the page behind softly blurs; the first click elsewhere brings it back */
+  function focusOn(){ document.body.classList.add('ollie-focus'); }
+  function focusOff(){ document.body.classList.remove('ollie-focus'); }
+  document.addEventListener('pointerdown',function(e){ if(!document.body.classList.contains('ollie-focus')) return; if(e.target.closest&&e.target.closest('#ollie')) return; focusOff(); },true);
+  document.addEventListener('keydown',function(e){ if(e.key==='Escape') focusOff(); });
+  function greet(){ if(O3.greeted) return; O3.greeted=true; setTimeout(function(){ peek.classList.add('on'); express('surprise',600); },900); }
+  function startTalk(){ if(talk.started) return; talk.started=true; focusOn(); peek.classList.remove('on'); if(!isPhone.matches) ollie.classList.add('big'); document.body.classList.add('talking'); setTimeout(function(){ express('surprise',650); },900); setTimeout(function(){ bubble.classList.add('on'); showLine(0); schedule(); },1500); }
+  function finish(){ focusOff(); talk.done=true; clearTimeout(talk.timer); O3.speak=null; bubble.classList.remove('on'); setTimeout(function(){ ollie.classList.remove('big'); document.body.classList.remove('talking'); },400); }
   bn.addEventListener('click',function(){ if(talk.i<lines.length-1){ showLine(talk.i+1); schedule(); } });
   bx.addEventListener('click',finish);
-  function startPulse(){ document.body.classList.add('pulse-prenota'); }
-  [].slice.call(document.querySelectorAll('a[href="#prenota"]')).forEach(function(a){ a.addEventListener('click',function(){ document.body.classList.remove('pulse-prenota'); }); });
-  document.addEventListener('click',function(e){ if(e.target.closest && e.target.closest('a[href="#prenota"]')) document.body.classList.remove('pulse-prenota'); });
+  function startPulse(){ var b=document.querySelector('#bookForm .btn'); if(!b) return; b.classList.remove('glow-once'); void b.offsetWidth; b.classList.add('glow-once'); setTimeout(function(){ b.classList.remove('glow-once'); },2600); }
   /* tap / click: laugh; double: laugh + blush + hearts; triple: eyes closed in bliss */
   function laugh(){ express('laugh',1400); ollie.classList.add('happy'); setTimeout(function(){ ollie.classList.remove('happy'); },700); }
-  function restartTalk(){ clearTimeout(talk.timer); bubble.classList.remove('on'); talk.started=false; talk.done=false; talk.i=-1;
-    setTimeout(function(){ startTalk(); },1300); }
+  function restartTalk(){ clearTimeout(talk.timer); clearTimeout(talk.unblur); bubble.classList.remove('on'); talk.started=false; talk.done=false; talk.i=-1;
+    setTimeout(function(){ startTalk(); },250); }
   var clicks=0, clickTimer=null;
   function jiggle(amp,dur){ O3.jiggle={start:performance.now(),amp:amp,dur:dur}; ollie.classList.remove('shake'); void ollie.offsetWidth; ollie.classList.add('shake'); }
   function hearts(n){ for(var i=0;i<n;i++){ (function(i){ setTimeout(function(){ var h=document.createElement('span'); h.className='heart'; h.style.left=(30+Math.random()*40)+'%'; h.style.setProperty('--dx',(Math.random()*60-30)+'px'); h.style.setProperty('--s',(0.7+Math.random()*0.6).toFixed(2));
@@ -815,12 +1128,11 @@ var OLO_BASE='';
     clearTimeout(clickTimer); clickTimer=setTimeout(function(){ var c=clicks; clicks=0;
       if(c===1 && !(talk.started && !talk.done && bubble.classList.contains('on'))) restartTalk(); },380); });
   ollie.addEventListener('dblclick',function(e){ e.preventDefault(); });
-  bubble.addEventListener('click',function(e){ if(e.target.closest('a.btn')) finish(); });
   (function ollieLoop(){
     var sgr=document.getElementById('soglia').getBoundingClientRect(), atDoor=sgr.top<innerHeight*0.6 && sgr.bottom>innerHeight*0.4;
-    var pcr=darkSec.getBoundingClientRect(), atPath=isPhone.matches && pcr.top<innerHeight*0.7 && pcr.bottom>innerHeight*0.5;
-    var show=((window.__hp||0)>0.9 || scrollY>heroEl.offsetHeight-80) && !atDoor && !atPath; ollie.classList.toggle('on',show);
-    if(show && !talk.started){ if(isPhone.matches) greet(); else startTalk(); }
+    var pcr=darkSec.getBoundingClientRect(), atPath=pcr.top<innerHeight*0.7 && pcr.bottom>innerHeight*0.5;
+    /* Ollie lives only in the booking section */ var prr=document.getElementById('prenota').getBoundingClientRect(), show=prr.top<innerHeight*0.7 && prr.bottom>innerHeight*0.35 && document.getElementById('cine').getBoundingClientRect().top>innerHeight*0.82; ollie.classList.toggle('on',show);
+    if(show && !talk.started) greet();
     if(talk.started && !talk.done){ if(!show){ clearTimeout(talk.timer); bubble.classList.remove('on'); } else if(!bubble.classList.contains('on') && talk.i>=0){ bubble.classList.add('on'); schedule(); } }
     if(show){ initOllie3D();
       if(O3.render){ var r=ollie.getBoundingClientRect(), ex=r.left+r.width/2, ey=r.top+r.height*0.2, dx, dy, tnow=performance.now(), tk=talking();
@@ -838,64 +1150,204 @@ var OLO_BASE='';
   (function(){ var sec=document.getElementById('soglia'); if(!sec) return;
     var btn=document.getElementById('holdBtn'), hint=document.getElementById('holdHint'), ui=document.getElementById('sogliaUi');
     var door=document.getElementById('door'), lever=document.getElementById('lever'), shade=document.getElementById('doorShade'), lit=document.getElementById('doorLit');
-    var light=document.getElementById('openLight'), spill=document.getElementById('spill'), floorL=document.getElementById('floorLight'), stage=document.getElementById('sogliaStage'), flash=document.getElementById('flash');
-    var still=matchMedia('(prefers-reduced-motion: reduce)').matches, HOLD=1700, p=0, holding=false, entering=false, last=0, downAt=0;
-    var cream=document.getElementById('sogliaCream'), stitle=document.getElementById('soglia-t'), lastE=-1;
+    var light=document.getElementById('openLight'), spill=document.getElementById('spill'), floorL=document.getElementById('floorLight'), stage=document.getElementById('sogliaStage');
+    var still=matchMedia('(prefers-reduced-motion: reduce)').matches, HOLD=800, p=0, holding=false, entering=false, last=0, downAt=0;
+    var run=document.getElementById('sogliaRun'), sflash=document.getElementById('sflash'), sp=0, lastSp=-1, cream=document.getElementById('sogliaCream'), stitle=document.getElementById('soglia-t'), lastE=-1;
     function arrive(){ var r=sec.getBoundingClientRect(), e=Math.max(0,Math.min(1,1-r.top/innerHeight)); if(still) e=1;
-      if(Math.abs(e-lastE)<0.001 && !holding && p===0) return; lastE=e;
+      if(Math.abs(e-lastE)<0.001 && !holding && p===0 && sp===lastSp) return; lastE=e;
       cream.style.opacity=(1-sm(0.12,0.7,e)).toFixed(3);
-      var grow=0.86+0.14*sm(0.18,0.95,e), hold=sm(0.02,0.5,p);
+      var grow=0.86+0.14*sm(0.18,0.95,e), hold=sm(0.3,0.78,Math.max(p,Math.min(1,sp/0.6)));
+      if(window.__bigMode){ stitle.classList.add('go','static'); stitle.style.opacity=((r.top<=1?1:0)*(1-hold)).toFixed(3); stitle.style.transform='scale('+(1+0.14*hold).toFixed(4)+')'; }
+      else {
       stitle.style.opacity=(sm(0.1,0.35,e)*(1-hold)).toFixed(3);
       if(e>0.55 && !stitle.classList.contains('go')) stitle.classList.add('go'); else if(e<0.05 && stitle.classList.contains('go')) stitle.classList.remove('go');
-      stitle.style.transform='translateY('+((1-sm(0.18,0.95,e))*40).toFixed(1)+'px) scale('+(grow*(1+0.14*hold)).toFixed(4)+')';
+      stitle.style.transform='translateY('+((1-sm(0.18,0.95,e))*40).toFixed(1)+'px) scale('+(grow*(1+0.14*hold)).toFixed(4)+')'; }
       stitle.style.filter=hold>0.01?'blur('+(hold*8).toFixed(1)+'px)':'none';
       ui.style.visibility=e>0.55?'visible':'hidden'; }
     function sm(a,b,x){ x=Math.max(0,Math.min(1,(x-a)/(b-a))); return x*x*(3-2*x); }
     /* the door rests ajar: a thin blade of golden light escapes, and it breathes slowly, as if someone were behind it */
     var REST=11;
+    /* light geometry: it leaves through the gap at the latch side, fans across the floor towards us and hangs in the air, wider as the door opens */
+    var hsLever=document.getElementById('hsLever'), dwEl=sec.querySelector('.dw'), beamC=document.getElementById('beamC'), wedgeC=document.getElementById('wedgeC'), motes=document.getElementById('motes'), slit=document.getElementById('slit');
+    (function(){ if(still) return; for(var i=0;i<26;i++){ var m=document.createElement('i'); m.style.setProperty('--x',Math.random().toFixed(3)); m.style.setProperty('--y',Math.random().toFixed(3)); m.style.setProperty('--d',(1.2+Math.random()*2).toFixed(1)+'px'); m.style.animationDelay=(-Math.random()*16).toFixed(1)+'s'; m.style.animationDuration=(10+Math.random()*9).toFixed(1)+'s'; motes.appendChild(m); } })();
+    function pt(q){ return q[0].toFixed(1)+'px '+q[1].toFixed(1)+'px'; }
+    function beamLight(g,gap,fe){
+      var W=dwEl.offsetWidth, H=dwEl.offsetHeight, top=dwEl.offsetTop, jx=dwEl.offsetLeft-W/2, ft=top+H, SH=sec.clientHeight, SW=sec.clientWidth, sp=W*(0.89+2.4*fe);
+      var air='polygon('+[[jx+1,top],[jx+1,ft],[jx-sp*0.95,SH],[Math.max(-SW,jx-sp*2.3),top-H*0.3]].map(pt).join(',')+')';
+      var flo='polygon('+[[jx+1,ft],[jx+W*0.14,SH],[jx-sp*1.5,SH],[jx-2,ft]].map(pt).join(',')+')';
+      beamC.style.clipPath=air; motes.style.clipPath=air; wedgeC.style.clipPath=flo;
+      beamC.style.background='radial-gradient(ellipse '+(sp*2.2).toFixed(0)+'px '+(H*0.95).toFixed(0)+'px at '+jx.toFixed(0)+'px '+(top+H*0.62).toFixed(0)+'px,rgba(255,222,160,'+(0.34*g*(0.75+0.25*fe)).toFixed(3)+'),rgba(255,196,120,'+(0.12*g*(0.75+0.25*fe)).toFixed(3)+') 45%,rgba(255,190,110,0) 78%)';
+      wedgeC.style.background='linear-gradient(180deg,rgba(255,236,190,'+(1*g).toFixed(3)+'),rgba(255,212,145,'+(0.62*g).toFixed(3)+') 45%,rgba(255,190,110,'+(0.12*g).toFixed(3)+'))';
+      slit.style.opacity=Math.min(1,g*1.1).toFixed(3); motes.style.opacity=g.toFixed(3);
+      motes.style.setProperty('--jx',jx.toFixed(0)+'px'); motes.style.setProperty('--sp',sp.toFixed(0)+'px'); motes.style.setProperty('--top',top.toFixed(0)+'px'); motes.style.setProperty('--h',(SH-top).toFixed(0)+'px');
+      sec.style.setProperty('--g',g.toFixed(3));
+    }
     function paint(){
-      var h=sm(0,0.16,p)-sm(0.9,1,p)*0.6, d=sm(0.1,1,p), op=sm(0.12,0.75,p);
+      var P=Math.max(p,Math.min(1,sp/0.6)), h=sm(0,0.16,P)-sm(0.9,1,P)*0.6, d=sm(0.1,1,P), op=sm(0.12,0.75,P);
       var t=performance.now(), breath=still?0:Math.sin(t/1500)*1.8+Math.sin(t/610)*0.35, rest=REST+breath*(1-d);
       var glow=0.42+0.08*Math.sin(t/1500);
-      lever.style.transform='rotate('+(h*34).toFixed(2)+'deg)';
+      var lz=(dwEl.offsetWidth*0.032).toFixed(1); lever.style.transform='translateZ('+lz+'px) rotate('+(h*34).toFixed(2)+'deg)'; if(hsLever) hsLever.style.transform='rotate('+(h*34).toFixed(2)+'deg)';
       door.style.transform='rotateY('+(rest+(76-rest)*d).toFixed(2)+'deg)';
-      shade.style.opacity=(0.07+d*0.25).toFixed(3); lit.style.opacity=Math.max(op*0.9,0.16).toFixed(3);
-      light.style.opacity=Math.max(op,glow).toFixed(3); spill.style.opacity=Math.max(op,glow*0.5).toFixed(3); floorL.style.opacity=Math.max(op*0.95,glow*0.28).toFixed(3);
-      ui.style.opacity=(1-sm(0.7,0.98,p)).toFixed(3);
+      /* the light that leaves the room is exactly what the gap lets through: the projected opening is W·(1−cos θ), so at half-open only part of it is out */
+      var ang=(rest+(76-rest)*d)*Math.PI/180, gap=Math.sin(ang), cs=Math.cos(ang), fe=Math.max(0,Math.min(1,(1-cs)/(1-Math.cos(76*Math.PI/180)))), flick=1+0.035*Math.sin(t/97)*Math.sin(t/233), g=Math.min(1,gap*4.4)*flick;
+      shade.style.opacity='1'; lit.style.opacity=(0.9*fe).toFixed(3);
+      light.style.opacity='1'; spill.style.opacity=(Math.pow(fe,1.4)*flick).toFixed(3);
+      var Wd=dwEl.offsetWidth, cx=sec.clientWidth/2, cL=cx-Wd/2, ed=cx+Wd/2-Wd*cs, open=Math.max(0,ed-cL);
+      /* the next section lives behind the door: publish the open part of the doorway, then let it grow to the whole screen as you step through */
+      var ol=light.getBoundingClientRect(), fr=Wd?open/Wd:0, zp=sm(0.62,1,sp), pl=ol.left, pr=ol.left+ol.width*fr, pt=ol.top, pb=ol.bottom, VW=innerWidth, VH=innerHeight;
+      window.__portal={on:(fr>0.004||zp>0.001)&&ol.width>0, z:zp, cx:ol.left+ol.width/2, cy:ol.top+ol.height*0.55, l:pl*(1-zp), t:pt*(1-zp), r:pr+(VW-pr)*zp, b:pb+(VH-pb)*zp};
+      floorL.style.clipPath='polygon('+cL.toFixed(1)+'px 0,'+ed.toFixed(1)+'px 0,'+(ed+open*0.9).toFixed(1)+'px 100%,'+(cL-open*0.9-Wd*0.1).toFixed(1)+'px 100%)';
+      floorL.style.opacity=(0.95*Math.pow(fe,0.7)).toFixed(3);
+      beamLight(g,gap,fe);
+      ui.style.opacity=(1-sm(0.7,0.98,P)).toFixed(3); ui.classList.toggle('scrolled',sp>0.03);
     }
     function start(e){ if(entering) return; if(e){ e.preventDefault(); if(e.pointerId!=null&&btn.setPointerCapture) try{ btn.setPointerCapture(e.pointerId); }catch(_){} } holding=true; downAt=performance.now(); btn.classList.add('on'); }
-    function stop(){ if(!holding) return; holding=false; btn.classList.remove('on'); if(performance.now()-downAt<250 && p<0.2){ hint.classList.remove('nudge'); void hint.offsetWidth; hint.classList.add('nudge'); } }
+    function stop(){ if(!holding) return; holding=false; btn.classList.remove('on'); if(performance.now()-downAt<300 && p<0.6 && !entering) enter(); }
     btn.addEventListener('pointerdown',start); btn.addEventListener('pointerup',stop); btn.addEventListener('pointercancel',stop); btn.addEventListener('lostpointercapture',stop);
     btn.addEventListener('contextmenu',function(e){ e.preventDefault(); });
     btn.addEventListener('keydown',function(e){ if((e.key===' '||e.key==='Enter') && !e.repeat){ e.preventDefault(); start(); } });
     btn.addEventListener('keyup',function(e){ if(e.key===' '||e.key==='Enter'){ e.preventDefault(); stop(); } });
-    function goTo(sel){ var el=document.querySelector(sel); if(!el) return; if(lenis) lenis.scrollTo(el,{immediate:true,force:true}); else el.scrollIntoView(); }
-    function enter(){ entering=true; holding=false; btn.classList.remove('on');
-      if(still){ goTo('#percorso'); reset(); return; }
-      var r=sec.getBoundingClientRect(), dr=door.getBoundingClientRect(), cy=(dr.top+dr.height/2)-r.top;
-      stage.style.transformOrigin='50% '+cy.toFixed(0)+'px'; stage.style.transition='transform 1.5s cubic-bezier(.55,0,.25,1)'; stage.style.transform='scale(9)';
-      setTimeout(function(){ flash.classList.remove('out'); flash.classList.add('on'); },650);
-      setTimeout(function(){ goTo('#percorso'); flash.classList.add('out'); flash.classList.remove('on'); reset(); var h=document.getElementById('percorso-t'); if(h){ h.setAttribute('tabindex','-1'); h.focus({preventScroll:true}); } },1600);
-    }
-    function reset(){ setTimeout(function(){ stage.style.transition='none'; stage.style.transform=''; p=0; paint(); entering=false; },400); }
+    document.addEventListener('click',function(e){ var a=e.target.closest&&e.target.closest('a[href="#percorso"]'); if(!a) return; var r=run.getBoundingClientRect(); if(r.bottom<innerHeight*0.5) return; e.preventDefault(); e.stopImmediatePropagation(); if(!entering) enter(); },true);
+    function enter(){ if(entering) return; entering=true; holding=false; btn.classList.remove('on');
+      var el=document.getElementById('percorso'), y=el.getBoundingClientRect().top+scrollY;
+      if(still||!lenis){ scrollTo({top:y,behavior:still?'auto':'smooth'}); } else lenis.scrollTo(y,{duration:2.4,easing:function(t){ return t<.5?4*t*t*t:1-Math.pow(-2*t+2,3)/2; }});
+      setTimeout(function(){ entering=false; p=0; var h=document.getElementById('percorso-t'); if(h){ h.setAttribute('tabindex','-1'); h.focus({preventScroll:true}); } },still?50:2500); }
+    function reset(){ p=0; paint(); entering=false; }
     (function loop(t){ var dt=last?Math.min(120,t-last):16; last=t;
+      var rr=run.getBoundingClientRect(), span=Math.max(1,rr.height-innerHeight); sp=Math.max(0,Math.min(1,-rr.top/span)); var past=Math.max(0,(innerHeight-rr.bottom)/innerHeight);
+      { var zs=sm(0.62,1,sp); if(zs>0.001){ stage.style.transition='none'; stage.style.transformOrigin='50% '+(stage._oy||innerHeight*0.6).toFixed(0)+'px'; stage.style.transform='scale('+(1+0.35*zs*zs).toFixed(3)+')'; } else { if(stage.style.transform) stage.style.transform=''; var dr=door.getBoundingClientRect(), r0=sec.getBoundingClientRect(); if(dr.height) stage._oy=(dr.top+dr.height/2)-r0.top; }
+        sflash.style.opacity='0'; }
       arrive();
-      if(!entering){ var before=p; if(holding) p=Math.min(1,p+dt/HOLD); else if(p>0) p=Math.max(0,p-dt/650); if(p!==before || (!still && p===0)) paint(); if(p>=1) enter(); }
+      if(sp!==lastSp){ lastSp=sp; paint(); } var before=p; if(!entering){ if(holding) p=Math.min(1,p+dt/HOLD); else if(p>0) p=Math.max(0,p-dt/650); } if(p!==before || (!still && p===0) || entering) paint(); if(p>=1 && !entering) enter();
       requestAnimationFrame(loop); })(0);
     paint();
   })();
-  /* --- il percorso: the gold line fills with the scroll, steps light up in order --- */
-  (function(){ var sec=document.getElementById('percorso'), list=document.getElementById('steps8'); if(!sec||!list) return;
-    var items=[].slice.call(list.querySelectorAll('li:not(.comet)')), bg=sec.querySelector('.pbg'), still=matchMedia('(prefers-reduced-motion: reduce)').matches, last=-1;
-    if(still){ items.forEach(function(li){ li.classList.add('lit'); }); list.style.setProperty('--pp',1); return; }
-    (function loop(){ var vh=innerHeight, r=list.getBoundingClientRect(), sr=sec.getBoundingClientRect();
-      if(sr.bottom>-50 && sr.top<vh+50){
-        var p=Math.max(0,Math.min(1,(vh*0.82-r.top)/(r.height+vh*0.42)));
-        if(Math.abs(p-last)>0.0005){ last=p; list.style.setProperty('--pp',p.toFixed(4));
-          items.forEach(function(li,i){ li.classList.toggle('lit', p>=(i+0.35)/items.length || p>=0.999); }); }
-        if(bg) bg.style.setProperty('--py',(((sr.top+sr.height/2)-vh/2)*-0.08).toFixed(1)+'px');
-      }
+  /* --- wordmark section: Ollie steps aside while it is on screen --- */
+  /* --- showroom map card --- */
+  /* --- first screen helpers and the phone booking button --- */
+  (function(){ var d=document.getElementById('discover'), hero=document.getElementById('hero'), fab=document.getElementById('fab'), pren=document.getElementById('prenota');
+    if(d) d.addEventListener('click',function(e){ e.preventDefault(); var y=hero.offsetTop+(hero.offsetHeight-innerHeight)*0.1; if(lenis) lenis.scrollTo(y,{duration:1.4}); else scrollTo({top:y,behavior:'smooth'}); });
+    if(fab){ (function f(){ var pr=pren.getBoundingClientRect(), hr=hero.getBoundingClientRect(), show=hr.bottom<innerHeight*0.6 && !(pr.top<innerHeight && pr.bottom>0) && document.getElementById('cine').getBoundingClientRect().top>innerHeight && !(function(){ var d=document.getElementById('dove').getBoundingClientRect(); return d.top<innerHeight && d.bottom>0; })() && !document.getElementById('intro'); fab.classList.toggle('on',show); requestAnimationFrame(f); })(); }
+  })();
+  /* --- the big title over the dusk --- */
+  (function(){ var still=matchMedia('(prefers-reduced-motion: reduce)').matches, dusk=document.getElementById('dusk'), sg=document.getElementById('soglia'), st=document.getElementById('soglia-t'), wrap=document.getElementById('bigT');
+    if(!dusk||!sg||!st||!wrap||still){ if(wrap) wrap.remove(); return; }
+    window.__bigMode=true;
+    var lines=[['La','porta'],['è','già','aperta.']], n=0;
+    function build(){ n=0; var h='<div class="bt">'; lines.forEach(function(ws,li){ h+='<span class="ln'+(li?' gold':'')+'">'; ws.forEach(function(w,wi){ if(wi) h+='<span class="sp"> </span>'; h+='<span class="w">'; for(var c=0;c<w.length;c++) h+='<span class="lt" style="--i:'+(n++)+'">'+w.charAt(c)+'</span>'; h+='</span>'; }); h+='</span>'; }); return h+'</div>'; }
+    var a=document.createElement('div'), b=document.createElement('div'); a.className='bl ink'; b.className='bl lite'; a.innerHTML=build(); b.innerHTML=build(); wrap.appendChild(a); wrap.appendChild(b);
+    var ta=a.firstChild, tb=b.firstChild, FS=100, on=false, lastW=0;
+    function size(){ ta.style.fontSize=tb.style.fontSize='100px'; var w=0; [].forEach.call(ta.children,function(l){ w=Math.max(w,l.getBoundingClientRect().width); }); var avail=ta.clientWidth||innerWidth*0.9; FS=Math.min(100*avail*0.98/Math.max(1,w), innerHeight*0.8/1.9); ta.style.fontSize=tb.style.fontSize=FS.toFixed(1)+'px'; }
+    function sm(x0,x1,x){ x=Math.max(0,Math.min(1,(x-x0)/(x1-x0))); return x*x*(3-2*x); }
+    (function loop(){ if(innerWidth!==lastW){ lastW=innerWidth; size(); }
+      var vh=innerHeight, d=dusk.getBoundingClientRect(), s=sg.getBoundingClientRect();
+      var k=sm(vh*0.8,vh*0.2,d.top), m=sm(vh,0,s.top), vis=k*(s.top>1?1:0);
+      wrap.style.opacity=vis.toFixed(3); wrap.style.visibility=vis>0.001?'visible':'hidden';
+      if(k>0.2 && !on){ on=true; wrap.classList.add('go'); } else if(k<0.02 && on){ on=false; wrap.classList.remove('go'); }
+      if(vis>0.001){
+        var stFS=parseFloat(getComputedStyle(st).fontSize), sc=1+(stFS/FS-1)*m, bh=ta.offsetHeight, yc0=vh*0.5, yc1=s.top+st.offsetTop+st.offsetHeight/2, yc=yc0+(yc1-yc0)*m;
+        ta.style.transform=tb.style.transform='translate3d(0,'+(yc-bh/2).toFixed(1)+'px,0) scale('+sc.toFixed(4)+')';
+        /* the ink turns from dark to light exactly where the background turns from light to dark */
+        var ys=d.top+d.height*0.23, f=Math.max(40,d.height*0.14);
+        var mA='linear-gradient(180deg,#000 '+(ys-f).toFixed(0)+'px,transparent '+(ys+f).toFixed(0)+'px)', mB='linear-gradient(180deg,transparent '+(ys-f).toFixed(0)+'px,#000 '+(ys+f).toFixed(0)+'px)';
+        a.style.webkitMaskImage=a.style.maskImage=mA; b.style.webkitMaskImage=b.style.maskImage=mB; }
       requestAnimationFrame(loop); })();
+  })();
+  /* --- il percorso: pinned horizontal track of rotating cards --- */
+  /* --- il percorso: you step through the door into the room, where the eight steps wait as a hover slider --- */
+  (function(){ var sec=document.getElementById('percorso'), stage=document.getElementById('gStage'), gDark=document.getElementById('gDark'); if(!sec||!stage) return;
+    var still=matchMedia('(prefers-reduced-motion: reduce)').matches, st='';
+    /* everything in the stage sits in one layer, so it can look far away behind the door and come forward as you step in */
+    var gin=document.createElement('div'); gin.className='gin'; while(stage.firstChild) gin.appendChild(stage.firstChild); stage.appendChild(gin);
+    /* seen from outside, the room is overexposed with light; the glow settles as you step in */
+    var glow=document.createElement('div'); glow.className='gglow'; glow.setAttribute('aria-hidden','true'); stage.appendChild(glow);
+    function setup(){ sec.style.height=innerHeight+'px'; stage.style.perspective='none'; }
+    setup(); addEventListener('resize',setup);
+    /* the slider: hovering (or tapping) a step rolls its letters up and wipes its video in from the top */
+    var its=[].slice.call(sec.querySelectorAll('.hs-it')), imgs=[].slice.call(sec.querySelectorAll('.hs-img')), caps=[].slice.call(sec.querySelectorAll('.hs-c')), act=0, seen=false;
+    its.forEach(function(b){ var t=b.querySelector('.hs-t'), txt=t.textContent; t.setAttribute('aria-label',txt); t.textContent='';
+      txt.split('').forEach(function(ch,i){ var c=document.createElement('span'); c.className='hs-ch'; c.setAttribute('aria-hidden','true'); c.style.setProperty('--d',(i*0.025).toFixed(3)+'s'); var g=ch===' '?'\u00a0':ch; c.innerHTML='<span class="a">'+g+'</span><span class="b">'+g+'</span>'; t.appendChild(c); }); });
+    function play(i){ imgs.forEach(function(f,k){ var v=f.querySelector('video'); if(!v) return; if(k===i&&seen){ if(!v.src&&v.dataset.src) v.src=v.dataset.src; if(v.paused&&!still){ var pr=v.play(); if(pr&&pr.catch) pr.catch(function(){}); } } else if(!v.paused) v.pause(); }); }
+    function go(i){ if(i===act) return; act=i; its.forEach(function(b,k){ b.classList.toggle('on',k===i); b.setAttribute('aria-pressed',k===i?'true':'false'); }); imgs.forEach(function(f,k){ f.classList.toggle('on',k===i); }); caps.forEach(function(c,k){ c.classList.toggle('on',k===i); }); play(i); }
+    its.forEach(function(b,k){ b.addEventListener('mouseenter',function(){ go(k); }); b.addEventListener('focus',function(){ go(k); }); b.addEventListener('click',function(){ go(k); }); });
+    (function loop(){ var r=sec.getBoundingClientRect(), po=window.__portal, s=r.top>0?((po&&po.on&&r.top<innerHeight)?'pin':''):(r.bottom<=innerHeight?'end':'pin');
+      stage.classList.toggle('portal',r.top>0.5);
+      if(r.top>0.5){ if(po&&po.on){ stage.style.visibility='visible'; var ps=0.4+0.6*Math.pow(po.z,1.15); gin.style.transformOrigin=po.cx.toFixed(1)+'px '+po.cy.toFixed(1)+'px'; gin.style.transform='scale('+ps.toFixed(4)+')'; var gl=Math.pow(1-po.z,1.3); glow.style.opacity=(0.9*gl).toFixed(3); glow.style.setProperty('--gx',po.cx.toFixed(0)+'px'); glow.style.setProperty('--gy',po.cy.toFixed(0)+'px'); gin.style.filter=gl>0.01?'brightness('+(1+0.55*gl).toFixed(3)+') saturate('+(1+0.25*gl).toFixed(3)+') blur('+(2.2*gl).toFixed(2)+'px)':''; stage.style.clipPath='inset('+Math.max(0,po.t).toFixed(1)+'px '+Math.max(0,innerWidth-po.r).toFixed(1)+'px '+Math.max(0,innerHeight-po.b).toFixed(1)+'px '+Math.max(0,po.l).toFixed(1)+'px)'; } else { stage.style.visibility='hidden'; } }
+      else if(stage.style.clipPath||stage.style.visibility||gin.style.transform){ stage.style.clipPath=''; stage.style.visibility=''; gin.style.transform=''; gin.style.filter=''; glow.style.opacity='0'; }
+      if(s!==st){ stage.classList.toggle('pin',s==='pin'); stage.classList.toggle('end',s==='end'); st=s; }
+      var vis=r.top<innerHeight*0.6 && r.bottom>innerHeight*0.3; if(vis!==seen){ seen=vis; play(act); }
+      window.__giroDark=false;
+      requestAnimationFrame(loop); })();
+  })();
+  /* --- cinematic footer: scroll-scrubbed reveal (scrub ~1s), magnetic pills, effects only while visible --- */
+  (function(){ var cine=document.getElementById('cine'); if(!cine) return; var cf=cine.querySelector('.cf'), giant=cf.querySelector('.cf-giant'), h=cf.querySelector('.cf-h'), acts=cf.querySelector('.cf-acts'), red=matchMedia('(prefers-reduced-motion: reduce)').matches;
+    var g=0, t=0, last=performance.now();
+    function cl(x){ return x<0?0:x>1?1:x; }
+    (function loop(now){ var dt=Math.min(.1,(now-last)/1000); last=now; var r=cine.getBoundingClientRect(), H=innerHeight;
+      cf.classList.toggle('run', r.top<H);
+      /* giant: start "top 80%", end "bottom bottom" */
+      var pg=cl((H*0.8-r.top)/(H*0.8+r.height-H)), pt=cl((H*0.4-r.top)/(H*0.4+r.height-H));
+      var k=1-Math.exp(-dt/0.33); g+=(pg-g)*k; t+=(pt-t)*k;
+      if(!red){ var eg=1-(1-g)*(1-g); giant.style.transform='translate(-50%,'+((1-eg)*10).toFixed(3)+'vh) scale('+(0.8+0.2*eg).toFixed(4)+')'; giant.style.opacity=eg.toFixed(3);
+        var e1=1-Math.pow(1-cl(t/0.87),3), e2=1-Math.pow(1-cl((t-0.13)/0.87),3);
+        h.style.opacity=e1.toFixed(3); h.style.transform='translateY('+((1-e1)*50).toFixed(1)+'px)';
+        acts.style.opacity=e2.toFixed(3); acts.style.transform='translateY('+((1-e2)*50).toFixed(1)+'px)'; }
+      requestAnimationFrame(loop); })(last);
+    /* magnetic: follows the pointer with a little 3D tilt, springs back with an elastic overshoot */
+    if(!red && matchMedia('(pointer:fine)').matches){ [].slice.call(cf.querySelectorAll('.cf-mag')).forEach(function(b){
+      b.style.transition+=',transform .4s cubic-bezier(.25,.46,.45,.94)';
+      b.addEventListener('mousemove',function(e){ var q=b.getBoundingClientRect(), x=e.clientX-q.left-q.width/2, y=e.clientY-q.top-q.height/2; b.style.transitionTimingFunction=''; b.style.transform='perspective(600px) translate('+(x*0.4).toFixed(1)+'px,'+(y*0.4).toFixed(1)+'px) rotateX('+(-y*0.15).toFixed(2)+'deg) rotateY('+(x*0.15).toFixed(2)+'deg) scale(1.05)'; });
+      b.addEventListener('mouseleave',function(){ b.animate([{transform:b.style.transform},{transform:'perspective(600px) translate(0,0) scale(1)'}],{duration:1200,easing:'linear(0, 0.62 6%, 1.12 13%, 1.24 17%, 1.17 22%, 0.98 30%, 0.92 34%, 0.95 39%, 1.01 47%, 1.02 52%, 1 63%, 1)'}); b.style.transform=''; });
+    }); }
+    cf.querySelector('.cf-up').addEventListener('click',function(e){ e.preventDefault(); if(window.lenis) lenis.scrollTo(0,{duration:2.2}); else scrollTo({top:0,behavior:'smooth'}); });
+  })();
+  /* --- where we are: a live map of real streets (OpenStreetMap via OpenFreeMap), restyled dark; only the main roads, the Tiber and a few place names --- */
+  (function(){ var sec=document.getElementById('dove'), el=document.getElementById('dvLive'); if(!sec||!el) return;
+    var IT=(document.documentElement.lang||'it').indexOf('it')===0, SITE=[12.3950,41.8217], CENTRO=[12.4823,41.8955], FCO=[12.2508,41.7999], started=false;
+    var T=IT?{centro:'Roma · centro storico',fco:'Aeroporto di Fiumicino',km1:'11 km',km2:'12 km'}:{centro:'Rome · historic centre',fco:'Fiumicino Airport',km1:'11 km',km2:'12 km'};
+    function css(h){ var l=document.createElement('link'); l.rel='stylesheet'; l.href=h; document.head.appendChild(l); }
+    function js(src,cb){ var s=document.createElement('script'); s.src=src; s.onload=cb; s.onerror=function(){ sec.classList.add('nomap'); }; document.head.appendChild(s); }
+    function pad(){ var wide=innerWidth>760, pr=sec.querySelector('.dv-panel').getBoundingClientRect(), sr=sec.getBoundingClientRect(); return wide?{top:110,bottom:70,left:Math.round(pr.right-sr.left+50),right:150}:{top:70,bottom:60,left:20,right:110}; }
+    function start(){ if(started) return; started=true; css('maplibre-gl.css');
+      js('https://cdn.jsdelivr.net/npm/maplibre-gl@4.7.1/dist/maplibre-gl.js',function(){ if(!window.maplibregl){ sec.classList.add('nomap'); return; }
+        var map=new maplibregl.Map({container:el,style:'https://tiles.openfreemap.org/styles/positron',bounds:[[12.23,41.785],[12.50,41.91]],fitBoundsOptions:{padding:pad()},attributionControl:{compact:true},cooperativeGestures:true,dragRotate:false,pitchWithRotate:false});
+        map.touchZoomRotate.disableRotation(); map.addControl(new maplibregl.NavigationControl({showCompass:false}),'top-right');
+        map.on('error',function(){});
+        map.on('load',function(){
+          map.getStyle().layers.forEach(function(L){ var id=L.id, t=L.type; try{
+            if(t==='background') map.setPaintProperty(id,'background-color','#0b0f2c');
+            else if(t==='fill'){ if(/water/.test(id)) map.setPaintProperty(id,'fill-color','#070a20'); else map.setLayoutProperty(id,'visibility','none'); }
+            else if(t==='fill-extrusion'||t==='circle'||t==='heatmap') map.setLayoutProperty(id,'visibility','none');
+            else if(t==='line'){
+              if(/water|river/.test(id)){ map.setPaintProperty(id,'line-color','#4b4f9a'); }
+              else if(/motorway|trunk|major/.test(id) && !/casing|outline|minor|service|path|rail/.test(id)){ var big=/motorway|trunk/.test(id); map.setPaintProperty(id,'line-color',big?'rgba(239,239,248,.55)':'rgba(239,239,248,.13)'); }
+              else map.setLayoutProperty(id,'visibility','none'); }
+            else if(t==='symbol'){
+              if(/place|town|suburb/.test(id) && !/city|country|state|village|hamlet|neighbourhood|quarter/.test(id)){ map.setPaintProperty(id,'text-color','rgba(239,239,248,.6)'); map.setPaintProperty(id,'text-halo-color','#0b0f2c'); map.setPaintProperty(id,'text-halo-width',1.4); map.setLayoutProperty(id,'text-field',['coalesce',['get',IT?'name:it':'name:en'],['get','name']]); }
+              else map.setLayoutProperty(id,'visibility','none'); }
+          }catch(e){} });
+          /* the two distances, as gold dashed lines */
+          map.addSource('olo-lines',{type:'geojson',data:{type:'FeatureCollection',features:[{type:'Feature',geometry:{type:'LineString',coordinates:[SITE,CENTRO]}},{type:'Feature',geometry:{type:'LineString',coordinates:[SITE,FCO]}}]}});
+          map.addLayer({id:'olo-lines',type:'line',source:'olo-lines',paint:{'line-color':'#d9b262','line-width':1.4,'line-dasharray':[1.5,3]}});
+          function mk(html,cls,ll,anchor){ var d=document.createElement('div'); d.className=cls; d.innerHTML=html; return new maplibregl.Marker({element:d,anchor:anchor||'center'}).setLngLat(ll).addTo(map); }
+          mk('<i></i><span>'+T.centro+'</span>','olo-pt',CENTRO,'left');
+          mk('<i class="plane">✈</i><span>'+T.fco+'</span>','olo-pt',FCO,'left');
+          mk(T.km1,'olo-km',[(SITE[0]+CENTRO[0])/2,(SITE[1]+CENTRO[1])/2]);
+          mk(T.km2,'olo-km',[(SITE[0]+FCO[0])/2,(SITE[1]+FCO[1])/2]);
+          mk('<i></i><i></i><b><img src="logoc-sym.png" alt=""></b><span>olosphera</span>','olo-mk',SITE);
+          sec.classList.add('live');
+        });
+        addEventListener('resize',function(){ map.fitBounds([[12.23,41.785],[12.50,41.91]],{padding:pad(),animate:false}); });
+      }); }
+    if('IntersectionObserver' in window){ var io=new IntersectionObserver(function(es){ if(es[0].isIntersecting){ start(); io.disconnect(); } },{rootMargin:'600px 0px'}); io.observe(sec); } else start();
+  })();
+  /* --- spotlight on every button --- */
+  (function(){ var SEL='.btn, .ghost, .soglia .entra, .fab, .nav a.word, .faq-cta, a.cf-pill';
+    [].slice.call(document.querySelectorAll(SEL)).forEach(function(b){ if(b.classList.contains('olo-sl')) return; b.classList.add('olo-sl');
+      if(getComputedStyle(b).position==='static') b.style.position='relative';
+      var l=document.createElement('i'), r=document.createElement('i'); l.className='olo-sl-l'; r.className='olo-sl-r'; l.setAttribute('aria-hidden','true'); r.setAttribute('aria-hidden','true'); b.insertBefore(r,b.firstChild); b.insertBefore(l,b.firstChild);
+      var fr=0; b.addEventListener('pointermove',function(e){ if(e.pointerType==='touch') return; var x=e.clientX, y=e.clientY; cancelAnimationFrame(fr); fr=requestAnimationFrame(function(){ var q=b.getBoundingClientRect(); b.style.setProperty('--spotlight-x',(x-q.left)+'px'); b.style.setProperty('--spotlight-y',(y-q.top)+'px'); }); });
+    });
   })();
   document.addEventListener('focusin',function(e){ if(e.target.matches && e.target.matches('input,textarea,select')) document.body.classList.add('typing'); });
   document.addEventListener('focusout',function(e){ if(e.target.matches && e.target.matches('input,textarea,select')) document.body.classList.remove('typing'); });
